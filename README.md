@@ -5,6 +5,8 @@ pupils, made for Faye and Philip. It is a single HTML file with no server:
 open it in a browser and it works. Progress is kept in the browser's own
 storage, per device and per learner.
 
+**Live site:** https://philipessaywriting.netlify.app
+
 | File | What it is |
 | --- | --- |
 | `index.html` | The whole site, built from `src/`. This is what Netlify publishes. |
