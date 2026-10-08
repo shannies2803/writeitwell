@@ -1,6 +1,6 @@
 /* Write It Well service worker – lets the site work offline and load instantly.
    build.py fills in VERSION, so every rebuild makes phones fetch the new site. */
-const VERSION = "e71b897283ee";
+const VERSION = "9c7e639241e4";
 const CORE = "wiw-core-" + VERSION;
 const RUNTIME = "wiw-runtime";
 const CORE_FILES = ["/", "/index.html", "/manifest.webmanifest", "/icons/icon-192.png", "/icons/icon-512.png", "/icons/apple-touch-icon.png"];
