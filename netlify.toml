@@ -1,0 +1,38 @@
+# Netlify build settings for Write It Well.
+#
+# The site is one self-contained file (index.html), already built and committed,
+# so there is nothing to build: Netlify just publishes the repository root.
+[build]
+  publish = "."
+  command = ""
+
+# The page *is* the whole app, so a new version has to be picked up on the next
+# reload rather than served from a phone's cache.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+
+# Only the site is public; sources, tests and notes stay in the repo.
+[[redirects]]
+  from = "/src/*"
+  to = "/"
+  status = 302
+[[redirects]]
+  from = "/tools/*"
+  to = "/"
+  status = 302
+[[redirects]]
+  from = "/docs/*"
+  to = "/"
+  status = 302

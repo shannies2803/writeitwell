@@ -1,0 +1,15 @@
+{
+  "bg": ["classroom","voiddeck","hawker","playground","park","living","kitchen","bedroom","street","busstop","mrt","beach","field","library","market","hall","zoo","clinic","garden","corridor"],
+  "time": ["day","evening","night"],
+  "weather": ["sun","cloud","rain","storm","wind"],
+  "who": ["boy","girl","man","woman","grandpa","grandma","teacher","toddler"],
+  "pose": ["stand","walk","run","sit","fall","point","wave","give","hold","cry","jump","kneel","hug","reach","think","shout","sleep","clap","carry"],
+  "face": ["neutral","happy","laughing","sad","crying","scared","angry","surprised","worried","proud","shy","thinking","guilty","relieved","determined","sleepy","hurt"],
+  "skin": ["light","tan","brown","dark"],
+  "hair": ["short","spiky","curly","ponytail","bob","long","bun","bald","tudung","grey"],
+  "color": ["red","orange","yellow","green","teal","blue","navy","purple","pink","white","grey","brown","black"],
+  "prop": ["wallet","money","ball","bicycle","scooter","dog","cat","puppy","kitten","bird","vase","vase-broken","umbrella","schoolbag","phone","book","books-pile","cake","plate","bowl","tray","cup","trophy","medal","kite","puddle","tree","bench","bus","car","letter","gift","flowerpot","bottle","toy","banana-peel","fishtank","basket","broom","firstaid","icecream","laptop","drum","desk","chair","table","bed","lamp","window","door","stairs","lift","bin","signboard","shoppingbag","mop","spill","stone","fence","box","sandcastle","bucket","clock","whiteboard","shelf","plant"],
+  "fx": ["rain","motion","sweat","tears","exclaim","question","hearts","sparkle","zzz","crack","stars","steam","notes","thought","smoke","splash","speed","anger","lightbulb"],
+  "faceKeys": ["happy","excited","proud","grateful","relieved","surprised","shocked","confused","curious","determined","hopeful","calm","worried","nervous","scared","sad","lonely","disappointed","frustrated","regretful","guilty","embarrassed","jealous","angry","moved","anxious","wronged","shy"],
+  "icon": ["steps","question","mountain","pictures","lightbulb","clock","hook","flag","paragraph","pencil","puzzle","speech","bandage","envelope","punctuation","hourglass","pace","palette","heart","eye","person","weather","swap","quote","run","star","tag","cards","mask","comet","rewind","moon","magnifier","blocks","ladder","quiz","list","desk","map","sun","pen","trophy","abc","proofread","bank","book","books","upgrade","seedling","chat","brush","scale","ruler","ear","nose"]
+}

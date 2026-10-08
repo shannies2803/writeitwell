@@ -1,0 +1,352 @@
+window.SPELL_EN_PATTERNS = window.SPELL_EN_PATTERNS || [];
+window.SPELL_EN_PATTERNS.push(
+{ id: "compound", lv: "A", title: "Compound words: two words glued together",
+  explain: "A <b>compound word</b> is two small words joined into one. Spell each small word, then glue them: <b>in + to = into</b>, <b>an + other = another</b>, <b>break + fast = breakfast</b> (you break your night-time fast), <b>birth + day = birthday</b>.",
+  rule: "Find the two little words, spell each one, then join them with no space.",
+  words: ["into","another","breakfast","birthday","today","cannot","something","everyone","everything","inside","outside","sometimes","afternoon","football","classroom","homework","without","myself","playground","sunflower"],
+  odd: ["a lot is always two words", "a while is two words after for, in and after: for a while", "all + ready = already, all + ways = always, all + so = also: one l falls off", "every day (each day) is two words; everyday (ordinary) is one"],
+  tip: "Draw a line between the two parts when you check: in|to, an|other, break|fast, birth|day." },
+
+{ id: "ough", lv: "B", title: "The -ough family",
+  explain: "<b>ough</b> can sound six different ways: <b>through</b> (oo), <b>though</b> (oh), <b>thought</b> (or), <b>enough</b> (uff), <b>cough</b> (off) and <b>plough</b> (ow). The spelling stays the same, so the sound will not help you. Learn them in rhyming groups.",
+  rule: "If you hear oo, oh, or, uff, off or ow and the word looks old and tricky, think -ough.",
+  words: ["through","though","although","thought","bought","brought","fought","ought","enough","rough","tough","cough","trough","dough","plough","drought"],
+  odd: ["thorough and borough end with an uh sound", "Do not mix up through (in one side, out the other) and threw (I threw the ball)"],
+  tip: "Learn them in groups that rhyme: thought, bought, brought, fought, ought (all say or); enough, rough, tough (all say uff); though, although, dough (all say oh)." },
+
+{ id: "igh", lv: "A", title: "igh says long i",
+  explain: "The letters <b>igh</b> together make the long <b>i</b> sound, as in <b>night</b>. The g and h are silent. Add a t to make the big -ight family: light, right, bright.",
+  rule: "Long i before a t at the end of a word is often -ight.",
+  words: ["high","sigh","thigh","night","light","right","bright","fight","sight","tight","flight","might","fright","knight","frighten","delight","sunlight","midnight","tonight"],
+  odd: ["height says long i but is spelt eigh", "eight, weigh and neighbour use eigh to say ay", "bite, kite and white use i-e instead"],
+  tip: "Say the sentence: I might fight the knight tonight in the bright light!" },
+
+{ id: "silent-kn-wr", lv: "B", title: "Silent k and silent w",
+  explain: "Long ago people said the k in <b>knee</b> and the w in <b>write</b>. Now they are silent, but we still write them. <b>kn</b> at the start says n. <b>wr</b> at the start says r.",
+  rule: "Hear n at the start? Check for kn. Hear r at the start? Check for wr.",
+  words: ["know","knew","knee","kneel","knife","knock","knot","knight","knit","knob","knuckle","write","wrote","wrong","wrap","wrist","wreck","wriggle","wrinkle","answer"],
+  odd: ["sword and two also have a silent w in the middle", "who, whose and whole: the w is silent and the h is said"],
+  tip: "Use your spelling voice and say every letter: k-nife, k-nock, w-rite, w-rong, ans-W-er." },
+
+{ id: "silent-b-g", lv: "B", title: "Silent b and silent g",
+  explain: "A silent <b>b</b> usually hides after m at the end of a word (<b>lamb, climb, thumb</b>). A silent <b>g</b> hides before n (<b>gnat, sign</b>).",
+  rule: "mb at the end says m; gn says n.",
+  words: ["lamb","climb","comb","thumb","crumb","bomb","limb","numb","plumber","debt","doubt","gnat","gnaw","gnome","sign","design","foreign","reign","campaign"],
+  odd: ["debt and doubt hide the b before t, not after m", "signal and signature say the g, which helps you remember the g in sign"],
+  tip: "Family trick: sign, signal, signature all share the g. Bomb and bombard share the b." },
+
+{ id: "silent-h-t", lv: "B", title: "Silent h and silent t",
+  explain: "Some words have a silent <b>h</b> (<b>hour, honest, school, ghost</b>) and some have a silent <b>t</b>, usually in <b>-sten</b> or <b>-stle</b> (<b>listen, castle, whistle</b>).",
+  rule: "Hear sen or sel after an s? It may be -sten or -stle with a silent t.",
+  words: ["hour","honest","honour","school","ghost","rhyme","rhythm","character","chemist","listen","castle","whistle","fasten","glisten","soften","thistle","rustle","Christmas","often"],
+  odd: ["Some people say the t in often; both are fine, but you always write the t", "In chemist, school and character, ch says k"],
+  tip: "Listen has a hidden TEN in it: lis-TEN. Christmas has Christ in it. Soften keeps the t of soft." },
+
+{ id: "double", lv: "B", title: "Doubling the last consonant",
+  explain: "When a short word ends in <b>one short vowel + one consonant</b> (hop, run, big), double the last letter before adding <b>-ing, -ed, -er or -est</b>: <b>hop &rarr; hopping</b>, <b>stop &rarr; stopped</b>, <b>big &rarr; bigger</b>. The double letter protects the short vowel sound.",
+  rule: "Short vowel + one consonant: double it before a vowel ending.",
+  words: ["hopping","running","swimming","sitting","stopped","shopping","clapped","dropped","planned","skipped","bigger","biggest","hotter","hottest","fatter","beginning","forgetting","travelled","cancelled"],
+  odd: ["hope &rarr; hoping has one p because hope has a long o (and you drop the e)", "jump &rarr; jumping: two consonants already, so no doubling", "rain &rarr; raining: two vowels, so no doubling", "Never double w, x or y: snowing, fixing, playing", "Longer words double only when the beat is on the last part: beGIN &rarr; beginning, forGET &rarr; forgetting, but VISit &rarr; visiting", "British English always doubles a final l after one vowel: travelled, cancelled"],
+  tip: "Compare the pairs aloud: hopping (hop) and hoping (hope); tapping (tap) and taping (tape)." },
+
+{ id: "drop-e", lv: "B", title: "Drop the e",
+  explain: "When a word ends in a silent <b>e</b>, drop the e before an ending that starts with a vowel (<b>-ing, -ed, -er, -est, -able</b>): <b>make &rarr; making</b>, <b>hope &rarr; hoped</b>, <b>nice &rarr; nicer</b>.",
+  rule: "Silent e goes away when a vowel ending comes to stay.",
+  words: ["making","taking","coming","writing","riding","smiling","hoping","dancing","baking","shining","using","loving","having","giving","caring","closed","excited","nicer","safest","larger"],
+  odd: ["Keep the e before a consonant ending: careful, lovely, hopeful, excitement, immediately", "Keep the e after c or g to keep the soft sound: noticeable, courageous", "be &rarr; being, see &rarr; seeing: ee keeps both e's", "true &rarr; truly, argue &rarr; argument and awe &rarr; awful drop the e even before a consonant"],
+  tip: "Write writing with ONE t: the e left, it did not ask for a second t." },
+
+{ id: "y-to-i", lv: "B", title: "Change y to i",
+  explain: "When a word ends in <b>consonant + y</b>, change the y to <b>i</b> before most endings: <b>happy &rarr; happier, happiest, happily, happiness</b>; <b>carry &rarr; carried</b>; <b>baby &rarr; babies</b>.",
+  rule: "Consonant + y: change y to i, unless the ending is -ing.",
+  words: ["happier","happiest","happily","happiness","carried","carries","cried","cries","tried","babies","funnier","easily","busily","business","beautiful","laziness","worried","heavier","angrily","stories"],
+  odd: ["Keep the y before -ing so you do not get ii: crying, trying, carrying, worrying", "Vowel + y keeps the y: played, enjoyed, keys, monkeys, days", "But said, paid, laid and daily are rule-breakers"],
+  tip: "Ask: is the letter before y a vowel (a, e, i, o, u)? If not, y turns to i." },
+
+{ id: "ie-ei", lv: "B", title: "i before e (except after c)",
+  explain: "When the sound is <b>ee</b>, write <b>ie</b> (believe, piece, field) &ndash; but after <b>c</b>, write <b>ei</b> (receive, ceiling). The rule only works for the <b>ee</b> sound, and even then a few words break it.",
+  rule: "i before e except after c, when the sound is ee.",
+  words: ["believe","piece","field","chief","thief","niece","shield","shriek","priest","achieve","receive","ceiling","receipt","deceive","conceited"],
+  odd: ["Rule-breakers with the ee sound: seize, weird, protein, caffeine, species", "When the sound is ay, write ei: eight, weigh, neighbour, vein, reindeer", "Other ei words with different sounds: their, height, foreign, either"],
+  tip: "A piece of pie: piece starts with pie. Weird is weird because it breaks the rule!" },
+
+{ id: "tion-sion", lv: "B", title: "-tion or -sion?",
+  explain: "The ending that sounds like <b>shun</b> is most often <b>-tion</b> (station, action, question). If it sounds like <b>zhun</b> (television, decision), it is almost always <b>-sion</b>. Words that come from a base ending in <b>-de, -se, -ss</b> or <b>-mit</b> also use -sion: decide &rarr; decision, discuss &rarr; discussion, permit &rarr; permission.",
+  rule: "Shun is usually -tion; zhun is almost always -sion.",
+  words: ["station","nation","action","question","attention","direction","information","invitation","celebration","competition","mention","decision","television","explosion","confusion","division","permission","discussion","expression","mansion"],
+  odd: ["Jobs done by people often end in -cian: musician, magician, electrician", "fashion and cushion end in -ion with sh", "equation is a rare -tion word that says zhun"],
+  tip: "Look at the base word: explode &rarr; explosion, act &rarr; action, express &rarr; expression." },
+
+{ id: "ful", lv: "A", title: "-ful has only one l",
+  explain: "The word <b>full</b> has two l's, but the ending <b>-ful</b> has only ONE: <b>care + ful = careful</b>, <b>help + ful = helpful</b>. If the word ends in consonant + y, change y to i: <b>beauty &rarr; beautiful</b>.",
+  rule: "As an ending, full loses an l: -ful.",
+  words: ["careful","helpful","beautiful","wonderful","colourful","hopeful","thankful","playful","peaceful","cheerful","painful","useful","grateful","spoonful","harmful","powerful","plentiful","forgetful"],
+  odd: ["full on its own keeps two l's", "careful + ly = carefully: now there are two l's because ful + ly", "fulfil (British) has one l in each half"],
+  tip: "A cup that is so full it spills an l: careful, helpful, beautiful." },
+
+{ id: "ly", lv: "B", title: "-ly: keep the whole base word",
+  explain: "To make most -ly words, just add <b>ly</b> to the whole word. Do not drop anything: <b>careful + ly = carefully</b> (two l's), <b>immediate + ly = immediately</b> (keep the e), <b>final + ly = finally</b>, <b>real + ly = really</b>.",
+  rule: "Base word + ly: keep every letter of the base.",
+  words: ["quickly","slowly","carefully","immediately","lovely","safely","finally","really","usually","suddenly","quietly","completely","extremely","sincerely","actually","especially","definitely","lonely","exactly","hopefully"],
+  odd: ["Consonant + y changes to i: happily, easily, angrily, busily", "-le words swap the e for y: gentle &rarr; gently, simple &rarr; simply, terrible &rarr; terribly", "true &rarr; truly and whole &rarr; wholly drop or change letters", "-ic words add -ally: basically, automatically (but publicly)"],
+  tip: "Say the base word first, then add ly: immediate...ly, definite...ly, careful...ly." },
+
+{ id: "le", lv: "B", title: "-le endings",
+  explain: "Many words end in an <b>ul</b> sound spelt <b>-le</b>: table, apple, little. If a short vowel comes before just one consonant sound, double it: <b>apple, little, bottle, middle</b>. If there are already two different consonants, do not double: <b>candle, simple, jungle</b>. If the vowel is long, just one: <b>table, title, bugle</b>.",
+  rule: "The ul sound at the end is most often -le.",
+  words: ["table","little","apple","bottle","middle","puzzle","people","circle","candle","purple","uncle","simple","gentle","cattle","bubble","giggle","tickle","jungle","title","needle"],
+  odd: ["Some words end in -el: travel, label, tunnel, camel, towel", "Some end in -al: hospital, metal, animal, festival", "Some end in -il: pencil, April, until"],
+  tip: "Short vowel? Double it: lit-tle, ap-ple, mid-dle. Long vowel? Single: ta-ble, ti-tle." },
+
+{ id: "soft-c-g", lv: "B", title: "Soft c and soft g",
+  explain: "<b>c</b> says <b>s</b> when it comes before <b>e, i or y</b> (city, centre, cycle). <b>g</b> often says <b>j</b> before <b>e, i or y</b> (giant, gentle, gym). Before a, o and u they stay hard: cat, cot, cup, gap, got, gum.",
+  rule: "e, i and y make c say s and often make g say j.",
+  words: ["city","cinema","circle","cycle","centre","pencil","fancy","bicycle","ice","face","giant","giraffe","gentle","gym","magic","energy","orange","cage","page","bridge"],
+  odd: ["g stays hard in some common words: get, give, girl, gift, tiger, begin, together", "-dge after a short vowel: bridge, hedge, badge, fudge"],
+  tip: "Bicycle has both: a soft c (cy says sy) then a hard c (cle says kul). Say bi-SY-kul. Circle is the same: soft c, then hard c." },
+
+{ id: "ph", lv: "B", title: "ph says f",
+  explain: "In many words from Greek, <b>ph</b> makes the <b>f</b> sound: <b>phone, photo, elephant, dolphin</b>.",
+  rule: "Hear f in a science-y or Greek-looking word? Try ph.",
+  words: ["phone","photo","elephant","alphabet","dolphin","graph","trophy","sphere","nephew","orphan","paragraph","physical","typhoon","microphone","pharmacy","phrase","telephone","photograph"],
+  odd: ["shepherd is shep + herd, so the ph does not say f", "Most f-sound words still use f: fish, fun, after"],
+  tip: "Elephant and dolphin are both animals with ph: a ph-unny pair." },
+
+{ id: "wh", lv: "A", title: "wh- words",
+  explain: "Most question words start with <b>wh</b>: <b>what, when, where, which, why, who</b>. Many other words do too: white, wheel, whale.",
+  rule: "Question words start with wh (except how).",
+  words: ["what","when","where","which","why","who","whose","whole","while","white","whale","wheel","whisper","whistle","wheat","whether","whenever","somewhere","anywhere"],
+  odd: ["In who, whose and whole, the w is silent and you hear h", "how is a question word that starts with h"],
+  tip: "Put a question mark in your head: wh- words ask questions. Where has here inside it (a place)." },
+
+{ id: "ed", lv: "A", title: "-ed endings that sound like t, d or id",
+  explain: "The past tense ending <b>-ed</b> can sound like <b>t</b> (jumped), <b>d</b> (played) or <b>id</b> (wanted). It is still spelt <b>-ed</b> every time.",
+  rule: "Whatever you hear, write -ed.",
+  words: ["jumped","helped","kissed","laughed","walked","looked","played","cleaned","opened","called","rained","wanted","needed","painted","shouted","landed","waited","started"],
+  odd: ["Some verbs do not use -ed: went, saw, caught, taught, bought, slept, felt", "British English also allows learnt, spelt, dreamt (learned, spelled, dreamed are fine too)"],
+  tip: "Never write jumpt or laught: if it already happened and you hear t, write -ed." },
+
+{ id: "er-est", lv: "A", title: "-er and -est",
+  explain: "Add <b>-er</b> to compare two things (taller) and <b>-est</b> for the most of all (tallest). Watch the other rules: <b>big &rarr; bigger</b> (double), <b>nice &rarr; nicer</b> (drop e), <b>happy &rarr; happier</b> (y to i).",
+  rule: "-er for two, -est for the most.",
+  words: ["taller","tallest","faster","fastest","bigger","biggest","hotter","hottest","nicer","nicest","larger","largest","happier","happiest","funnier","funniest","earlier","earliest"],
+  odd: ["good, better, best; bad, worse, worst; many, more, most", "Long words use more and most: more beautiful, most careful"],
+  tip: "Check the end of the base word first: short vowel + consonant, silent e, or consonant + y?" },
+
+{ id: "plurals", lv: "B", title: "Plurals: s, es, ies, ves",
+  explain: "Most words add <b>s</b>. Words ending in <b>s, x, z, sh, ch</b> add <b>es</b> (buses, boxes). Consonant + y becomes <b>ies</b> (babies). Many words ending in <b>f or fe</b> become <b>ves</b> (leaves, knives). Some words ending in <b>o</b> add <b>es</b> (potatoes, tomatoes).",
+  rule: "Add s; add es after a hissing sound; y to ies; f to ves.",
+  words: ["buses","boxes","foxes","wishes","churches","babies","berries","stories","cities","days","toys","keys","leaves","knives","wolves","halves","shelves","loaves","potatoes","tomatoes"],
+  odd: ["Some change inside: children, mice, teeth, feet, men, women", "Some stay the same: sheep, fish, deer", "Some f words just add s: roofs, chiefs, cliffs", "Some o words just add s: photos, pianos, zoos"],
+  tip: "If you can hear an extra beat (box-es, bus-es), you need es." },
+
+{ id: "prefix", lv: "B", title: "Prefixes un-, dis-, mis-",
+  explain: "A prefix goes at the front and nothing gets dropped: <b>mis + spell = misspell</b> (two s's), <b>un + necessary = unnecessary</b> (two n's), <b>dis + satisfied = dissatisfied</b>.",
+  rule: "Prefix + whole word: never drop a letter.",
+  words: ["unhappy","unkind","untidy","unlock","undo","unnecessary","unnatural","dislike","disagree","disappear","dishonest","disobey","dissatisfied","disappoint","misspell","misbehave","mistake","misunderstand","misplace"],
+  odd: ["dis + appear = disappear and dis + appoint = disappoint have only one s, because appear and appoint start with a", "Level C: im-, in-, il-, ir- also mean not: impossible, incorrect, illegal, irregular"],
+  tip: "Write the prefix, draw a line, then the whole base word: mis|spell, un|necessary." },
+
+{ id: "ous", lv: "C", title: "-ous endings",
+  explain: "The ending <b>-ous</b> means full of: <b>dangerous</b> (full of danger), <b>famous</b> (full of fame). It sounds like us but is spelt <b>ous</b>.",
+  rule: "The us sound at the end of a describing word is -ous.",
+  words: ["famous","dangerous","nervous","enormous","jealous","generous","delicious","curious","various","serious","previous","obvious","mysterious","poisonous","courageous","gorgeous","humorous","anxious","tremendous","fabulous"],
+  odd: ["courageous and gorgeous keep the e to keep the g soft", "humour drops its u: humorous", "fame drops its e: famous"],
+  tip: "Think OUS = Oh, U are Special: famous, generous, fabulous." },
+
+{ id: "ture", lv: "B", title: "-ture endings",
+  explain: "The ending that sounds like <b>cher</b> is usually spelt <b>-ture</b>: <b>picture, nature, future, adventure</b>.",
+  rule: "cher at the end of a thing-word is usually -ture.",
+  words: ["picture","nature","future","adventure","furniture","temperature","creature","mixture","capture","signature","feature","sculpture","departure","moisture","lecture","puncture","structure","culture"],
+  odd: ["When the base word ends in ch, just add -er: teach &rarr; teacher, catch &rarr; catcher, rich &rarr; richer, stretch &rarr; stretcher"],
+  tip: "Picture, nature, future: say pic-TURE, na-TURE, fu-TURE in your spelling voice." },
+
+{ id: "or-sound", lv: "B", title: "The or sound: or, ore, aw, au, our",
+  explain: "The <b>or</b> sound has many spellings: <b>or</b> (fork), <b>ore</b> (more), <b>aw</b> (saw), <b>au</b> (August), <b>our</b> (four), <b>oor</b> (door).",
+  rule: "aw often comes at the end or before n/l; au comes in the middle.",
+  words: ["for","fork","short","storm","more","score","before","saw","draw","straw","yawn","dawn","August","author","sauce","launch","four","pour","door","floor"],
+  odd: ["warm, war, ball, call: a and wa can also say or", "caught and taught use augh", "our on its own says ow-er"],
+  tip: "Group them: saw, draw, straw (aw at the end); sauce, launch, August (au in the middle)." },
+
+{ id: "air-sound", lv: "B", title: "The air sound: air, are, ear, ere",
+  explain: "The <b>air</b> sound can be <b>air</b> (chair), <b>are</b> (care), <b>ear</b> (bear) or <b>ere</b> (there, where).",
+  rule: "Learn them in families: air, are, ear, ere.",
+  words: ["air","hair","chair","fair","pair","stairs","care","share","square","scare","bare","compare","bear","pear","wear","tear","swear","there","where","everywhere"],
+  odd: ["their and they're also say air", "tear (to rip) says air, but tear (from your eye) says ear"],
+  tip: "Hair on a chair; care to share; a bear eating a pear; where is there?" },
+
+{ id: "ai-ay", lv: "A", title: "ai and ay",
+  explain: "The long <b>a</b> sound is <b>ai</b> in the middle of a word (rain, train) and <b>ay</b> at the end (day, play).",
+  rule: "ai in the middle, ay at the end.",
+  words: ["rain","train","wait","paint","snail","tail","again","afraid","day","play","stay","say","away","today","always","holiday","birthday","Monday","Sunday"],
+  odd: ["a-e also makes the sound: cake, make, game", "great, break and steak use ea", "eight and weigh use eigh; they, grey and obey use ey"],
+  tip: "English words almost never end in ai, so at the end of a word you need ay." },
+
+{ id: "ee-ea", lv: "A", title: "ee and ea",
+  explain: "The long <b>e</b> sound is often <b>ee</b> (tree) or <b>ea</b> (sea). You have to learn which one each word uses, so learn them in pairs and groups.",
+  rule: "Learn ee and ea words in groups, and check homophones (see/sea, meet/meat).",
+  words: ["tree","green","sleep","week","feet","sheep","queen","between","sea","eat","read","teacher","clean","beach","dream","leaf","please","each","speak"],
+  odd: ["ea can say e: bread, head, weather, ready, breakfast", "ea can say ay: great, break, steak", "Homophones: see/sea, meet/meat, week/weak, been/bean"],
+  tip: "Picture it: three green trees (ee); eat a peach on the beach (ea)." },
+
+{ id: "oa-ow", lv: "A", title: "oa and ow",
+  explain: "The long <b>o</b> sound is <b>oa</b> in the middle of a word (boat, road) and often <b>ow</b> at the end (snow, slow).",
+  rule: "oa in the middle, ow at the end.",
+  words: ["boat","coat","road","soap","goat","toast","float","coach","throat","snow","slow","grow","show","window","yellow","tomorrow","follow","elbow","below"],
+  odd: ["o-e also makes the sound: home, bone, hope", "toe and go: oe and o on their own", "ow can also say ow as in cow, now"],
+  tip: "A goat in a boat on the road; snow on the window." },
+
+{ id: "oi-oy", lv: "A", title: "oi and oy",
+  explain: "The <b>oy</b> sound is <b>oi</b> in the middle of a word (coin, point) and <b>oy</b> at the end (boy, toy).",
+  rule: "oi in the middle, oy at the end.",
+  words: ["oil","coin","point","noise","voice","join","boil","soil","choice","avoid","toilet","boy","toy","enjoy","joy","destroy","annoy","royal","loyal","oyster"],
+  odd: ["oyster, royal and loyal use oy even though it is not at the end (oy comes before a vowel)"],
+  tip: "The boy enjoys his toy; join the coin to the point." },
+
+{ id: "ou-ow", lv: "A", title: "ou and ow",
+  explain: "The <b>ow</b> sound (as in ouch!) is <b>ou</b> in the middle of a word (house, cloud) and <b>ow</b> at the end or before n, l or er (cow, town, owl, flower).",
+  rule: "ou in the middle; ow at the end or before n, l, er.",
+  words: ["out","house","mouse","cloud","loud","shout","mouth","round","sound","ground","about","count","cow","now","how","town","down","brown","flower","owl"],
+  odd: ["crowd and powder use ow in the middle", "ou has other sounds too: you, touch, your, could"],
+  tip: "A brown cow in town; a loud mouse in the house." },
+
+{ id: "syllables", lv: "B", title: "Long words: break them into beats",
+  explain: "Clap the beats and spell one beat at a time: <b>Wed-nes-day</b>, <b>Feb-ru-ar-y</b>, <b>beau-ti-ful</b>, <b>dif-fer-ent</b>, <b>li-brar-y</b>, <b>in-ter-est-ing</b>, <b>choc-o-late</b>, <b>veg-e-ta-ble</b>, <b>im-me-di-ate-ly</b>.",
+  rule: "Clap it, split it, spell each chunk.",
+  words: ["Wednesday","February","beautiful","different","library","interesting","chocolate","vegetable","excited","remember","immediately","family","Saturday","separate","December","important","every","hospital","yesterday","dinosaur"],
+  odd: ["Some beats are swallowed when we talk (choc'late, diff'rent, Feb'ry), so say every beat slowly when you spell"],
+  tip: "Write the word in chunks with dashes first, then write it again joined up." },
+
+{ id: "british", lv: "B", title: "British spelling (used in Singapore)",
+  explain: "Singapore schools use <b>British</b> spelling. Watch for <b>-our</b> (colour, favourite), <b>-re</b> (centre, metre), <b>double l</b> (travelled, cancelled), <b>-ise</b> (realise, organise) and words like <b>grey, mum, programme, jewellery</b>.",
+  rule: "In Singapore, write the British way: colour, centre, travelled, realise.",
+  words: ["colour","favourite","neighbour","honour","behaviour","flavour","centre","metre","theatre","travelled","cancelled","realise","organise","apologise","recognise","grey","programme","jewellery","aeroplane","tyre"],
+  odd: ["American spellings to avoid in school: color, favorite, center, traveled, realize, gray", "-ize is also accepted in some British dictionaries, but Singapore schools usually teach -ise", "computer program (for a computer) is spelt program even in British English", "practice is the noun, practise is the verb: I practise at piano practice"],
+  tip: "Think: British words like to keep their u (colour) and their extra l (travelled)." },
+
+{ id: "spelling-voice", lv: "B", title: "Your spelling voice",
+  explain: "Say a tricky word in a <b>funny way</b> that matches its letters, and your brain will remember it. Say it out loud while you write it: <b>Wed-NES-day</b>, <b>Feb-RU-ary</b>, <b>bee-A-U-ti-ful</b>.",
+  rule: "Say it how it is spelt, not how it sounds.",
+  words: ["Wednesday","February","beautiful","friend","people","because","island","separate","business","chocolate","different","library","environment","restaurant","knife","listen","government","necessary","biscuit","question"],
+  odd: [],
+  tip: "Funny voices: Wed-NES-day, Feb-RU-ary, fri-END, pe-O-ple, IS-land, sep-A-rate, BUS-I-ness, choc-O-late, en-vi-RON-ment, lis-TEN, bis-CU-it, k-nife. For because: Big Elephants Can Always Understand Small Elephants." }
+);
+
+window.SPELL_EN_HOMO = window.SPELL_EN_HOMO || [];
+window.SPELL_EN_HOMO.push(
+{ set: ["their","there","they're"],
+  hints: ["their = belongs to them (it has heir inside, and an heir owns things)", "there = a place (it has here inside)", "they're = they are"],
+  quiz: [ { s: "___ dog barks every morning.", a: "Their" }, { s: "Put the box over ___.", a: "there" }, { s: "I hope ___ coming to my party.", a: "they're" }, { s: "The children packed ___ school bags.", a: "their" }, { s: "___ are ten apples in the basket.", a: "There" }, { s: "Hurry up, ___ waiting for us!", a: "they're" } ] },
+
+{ set: ["to","too","two"],
+  hints: ["to = towards, or before a doing word (go to school, to eat)", "too = also, or more than enough (it has one o too many)", "two = the number 2 (tw like twin, twelve, twenty)"],
+  quiz: [ { s: "I have ___ cats and a dog.", a: "two" }, { s: "We walk ___ school every day.", a: "to" }, { s: "This soup is ___ hot to eat.", a: "too" }, { s: "Can my sister come ___?", a: "too" }, { s: "I want ___ learn the piano.", a: "to" }, { s: "The bus came ___ minutes late.", a: "two" } ] },
+
+{ set: ["your","you're"],
+  hints: ["your = belongs to you (your bag)", "you're = you are (the apostrophe stands for the missing a)"],
+  quiz: [ { s: "Is this ___ water bottle?", a: "your" }, { s: "___ my best friend.", a: "You're" }, { s: "Please wash ___ hands before lunch.", a: "your" }, { s: "I think ___ right about that.", a: "you're" }, { s: "Thank you for ___ help.", a: "your" }, { s: "If ___ tired, have a rest.", a: "you're" } ] },
+
+{ set: ["its","it's"],
+  hints: ["its = belongs to it (like his and hers, no apostrophe)", "it's = it is or it has"],
+  quiz: [ { s: "The cat licked ___ paw.", a: "its" }, { s: "___ raining again.", a: "It's" }, { s: "The tree has lost ___ leaves.", a: "its" }, { s: "I think ___ time to go home.", a: "it's" }, { s: "The bird flapped ___ wings.", a: "its" }, { s: "___ been a long day.", a: "It's" } ] },
+
+{ set: ["where","were","wear","we're"],
+  hints: ["where = which place (it has here inside)", "were = past of are (we were happy)", "wear = put on clothes (you wear an earring on your ear)", "we're = we are"],
+  quiz: [ { s: "___ is my pencil case?", a: "Where" }, { s: "We ___ at the zoo yesterday.", a: "were" }, { s: "You must ___ a helmet when you cycle.", a: "wear" }, { s: "___ going to the beach on Saturday!", a: "We're" }, { s: "I know ___ the key is hidden.", a: "where" }, { s: "They ___ very tired after the race.", a: "were" } ] },
+
+{ set: ["which","witch"],
+  hints: ["which = asks about a choice (which one?)", "witch = a woman in stories who does magic (witch has a t, like a tall hat)"],
+  quiz: [ { s: "___ bag is yours?", a: "Which" }, { s: "The ___ flew away on her broomstick.", a: "witch" }, { s: "I cannot decide ___ book to borrow.", a: "which" }, { s: "In the story, a ___ turned the prince into a frog.", a: "witch" }, { s: "___ way is the MRT station?", a: "Which" } ] },
+
+{ set: ["quiet","quite"],
+  hints: ["quiet = not noisy (two syllables: qui-et)", "quite = fairly or very (one syllable, ends in silent e: quite like kite)"],
+  quiz: [ { s: "Please be ___ in the library.", a: "quiet" }, { s: "The spelling test was ___ easy.", a: "quite" }, { s: "The classroom went ___ when the principal walked in.", a: "quiet" }, { s: "I am not ___ ready yet.", a: "quite" }, { s: "It is ___ hot today, so bring water.", a: "quite" }, { s: "The baby is asleep, so keep ___.", a: "quiet" } ] },
+
+{ set: ["threw","through","thorough"],
+  hints: ["threw = past of throw (I threw the ball)", "through = in one side and out the other (through the tunnel)", "thorough = careful and complete (Level C: a thorough check)"],
+  quiz: [ { s: "He ___ the ball to me.", a: "threw" }, { s: "We walked ___ the tunnel.", a: "through" }, { s: "The doctor gave me a ___ check-up.", a: "thorough" }, { s: "The cat jumped ___ the open window.", a: "through" }, { s: "She ___ the rubbish into the bin.", a: "threw" }, { s: "Mum did a ___ clean of the whole kitchen.", a: "thorough" } ] },
+
+{ set: ["whole","hole"],
+  hints: ["whole = all of it (the whole cake: w for with nothing missing)", "hole = a gap or opening (a hole is empty, like the o)"],
+  quiz: [ { s: "I ate the ___ plate of noodles.", a: "whole" }, { s: "There is a ___ in my sock.", a: "hole" }, { s: "The rabbit dug a deep ___.", a: "hole" }, { s: "The ___ class clapped for him.", a: "whole" }, { s: "We spent the ___ day at Sentosa.", a: "whole" } ] },
+
+{ set: ["write","right"],
+  hints: ["write = put words on paper (w-rite, like wrote and written)", "right = correct, or the opposite of left"],
+  quiz: [ { s: "Please ___ your name at the top.", a: "write" }, { s: "Turn ___ at the traffic light.", a: "right" }, { s: "You got every answer ___!", a: "right" }, { s: "I like to ___ stories about dragons.", a: "write" }, { s: "Raise your ___ hand.", a: "right" } ] },
+
+{ set: ["piece","peace"],
+  hints: ["piece = a part of something (a piece of pie)", "peace = calm, no fighting (peace and quiet; peace has ea like please)"],
+  quiz: [ { s: "Can I have a ___ of cake?", a: "piece" }, { s: "Mum wants some ___ and quiet.", a: "peace" }, { s: "I lost a ___ of my jigsaw puzzle.", a: "piece" }, { s: "After the war, the two countries made ___.", a: "peace" }, { s: "Write your answer on a ___ of paper.", a: "piece" } ] },
+
+{ set: ["hear","here"],
+  hints: ["hear = with your ear (hear has ear inside)", "here = this place (here is in there and where)"],
+  quiz: [ { s: "I can ___ the birds singing.", a: "hear" }, { s: "Please put your bag ___.", a: "here" }, { s: "Did you ___ the thunder last night?", a: "hear" }, { s: "Is anyone sitting ___?", a: "here" }, { s: "Speak louder, I cannot ___ you.", a: "hear" } ] },
+
+{ set: ["weather","whether"],
+  hints: ["weather = sun, rain, wind (we eat outside when the weather is good)", "whether = if (whether or not; it starts with wh like which)"],
+  quiz: [ { s: "The ___ is very hot today.", a: "weather" }, { s: "I do not know ___ to go or stay.", a: "whether" }, { s: "Ask Mum ___ we can go to the pool.", a: "whether" }, { s: "If the ___ is fine, we will have a picnic.", a: "weather" }, { s: "She was not sure ___ he was joking.", a: "whether" } ] },
+
+{ set: ["our","are"],
+  hints: ["our = belongs to us (our has u for us)", "are = a doing word: we are, you are, they are"],
+  quiz: [ { s: "___ teacher is very kind.", a: "Our" }, { s: "We ___ late for school!", a: "are" }, { s: "These ___ my new shoes.", a: "are" }, { s: "We love ___ dog very much.", a: "our" }, { s: "Where ___ you going?", a: "are" } ] },
+
+{ set: ["of","off"],
+  hints: ["of = belongs to or made of (a cup of tea; says ov)", "off = not on, or away from (switch off; two f's, says off)"],
+  quiz: [ { s: "Please turn ___ the lights.", a: "off" }, { s: "Can I have a glass ___ water?", a: "of" }, { s: "Take ___ your shoes at the door.", a: "off" }, { s: "One ___ my friends lives in Tampines.", a: "of" }, { s: "Get ___ the bus at the next stop.", a: "off" } ] },
+
+{ set: ["then","than"],
+  hints: ["then = next, or at that time (then and when both have e)", "than = for comparing (bigger than; than and compare both have a)"],
+  quiz: [ { s: "I am taller ___ my sister.", a: "than" }, { s: "We ate lunch and ___ went swimming.", a: "then" }, { s: "Durian smells stronger ___ mango.", a: "than" }, { s: "First wash your hands, ___ eat.", a: "then" }, { s: "Back ___, there were no mobile phones.", a: "then" }, { s: "My bag is heavier ___ yours.", a: "than" } ] },
+
+{ set: ["lose","loose"],
+  hints: ["lose = not find, or not win (lose lost one o)", "loose = not tight (loose has an extra o, like a loose tooth wobbling)"],
+  quiz: [ { s: "Do not ___ your EZ-Link card.", a: "lose" }, { s: "My front tooth is ___.", a: "loose" }, { s: "We might ___ the match if we do not practise.", a: "lose" }, { s: "These shorts are too ___ for me.", a: "loose" }, { s: "The dog got ___ and ran down the street.", a: "loose" } ] },
+
+{ set: ["accept","except"],
+  hints: ["accept = take or agree to (accept a gift; a for agree)", "except = leaving out (everyone except me; ex for exclude)"],
+  quiz: [ { s: "Please ___ this small gift.", a: "accept" }, { s: "Everyone went on the trip ___ Ken.", a: "except" }, { s: "I like all fruit ___ durian.", a: "except" }, { s: "Does this shop ___ cash?", a: "accept" }, { s: "The shop is open every day ___ Monday.", a: "except" } ] },
+
+{ set: ["affect","effect"],
+  hints: ["affect = to change something (a doing word; a for action)", "effect = the result (a thing; e for end result). Level C."],
+  quiz: [ { s: "Too much screen time can ___ your sleep.", a: "affect" }, { s: "The medicine had a quick ___.", a: "effect" }, { s: "Did the rain ___ the football match?", a: "affect" }, { s: "What ___ does sugar have on your teeth?", a: "effect" }, { s: "The noise did not ___ her at all.", a: "affect" } ] },
+
+{ set: ["allowed","aloud"],
+  hints: ["allowed = let, given permission (allow + ed)", "aloud = out loud, so people can hear (aloud has loud inside)"],
+  quiz: [ { s: "Please read the poem ___.", a: "aloud" }, { s: "We are not ___ to run in the corridor.", a: "allowed" }, { s: "Mum ___ me to stay up late on Friday.", a: "allowed" }, { s: "He laughed ___ at the funny joke.", a: "aloud" }, { s: "Are dogs ___ in the park?", a: "allowed" } ] },
+
+{ set: ["a while","awhile"],
+  hints: ["a while = two words meaning some time. Always use it after for, in, after and ago: for a while, once in a while, after a while.", "awhile = one word meaning for a while (stay awhile). Never write for awhile. If you are unsure, a while is always safe."],
+  quiz: [ { s: "We waited for ___ at the bus stop.", a: "a while" }, { s: "Once in ___, we eat out at the hawker centre.", a: "a while" }, { s: "After ___, the rain stopped.", a: "a while" }, { s: "It took ___ to finish my homework.", a: "a while" }, { s: "I have not seen my cousin for quite ___.", a: "a while" } ] },
+
+{ set: ["new","knew"],
+  hints: ["new = not old (new shoes)", "knew = past of know (k-new: you knew it, with the k from know)"],
+  quiz: [ { s: "I ___ the answer straight away!", a: "knew" }, { s: "I got ___ shoes for my birthday.", a: "new" }, { s: "She ___ my name even though we had never met.", a: "knew" }, { s: "We have a ___ classmate this term.", a: "new" }, { s: "Nobody ___ where the key was.", a: "knew" } ] },
+
+{ set: ["no","know"],
+  hints: ["no = the opposite of yes, or not any (no milk)", "know = have it in your head (know, knew, knowledge all start with kn)"],
+  quiz: [ { s: "I ___ how to ride a bicycle.", a: "know" }, { s: "There is ___ milk left in the fridge.", a: "no" }, { s: "Do you ___ her brother?", a: "know" }, { s: "I have ___ idea where my eraser went.", a: "no" }, { s: "Let me ___ when you are ready.", a: "know" } ] },
+
+{ set: ["buy","by","bye"],
+  hints: ["buy = pay money for something (buy has u for you pay)", "by = next to, or who did it (by the river, written by)", "bye = goodbye"],
+  quiz: [ { s: "I want to ___ a new pencil.", a: "buy" }, { s: "This book was written ___ Roald Dahl.", a: "by" }, { s: "Say ___ to Grandma before we leave.", a: "bye" }, { s: "We walked ___ the river.", a: "by" }, { s: "Dad went to ___ some bread.", a: "buy" }, { s: "Please finish your work ___ Friday.", a: "by" } ] },
+
+{ set: ["passed","past"],
+  hints: ["passed = a doing word, past of pass (she passed the ball; he passed the test)", "past = time gone by, or going beyond (in the past; walk past the shop; half past three)"],
+  quiz: [ { s: "We walked ___ the bakery.", a: "past" }, { s: "She ___ me the ball.", a: "passed" }, { s: "It is half ___ three.", a: "past" }, { s: "He ___ his swimming test.", a: "passed" }, { s: "In the ___, people used candles for light.", a: "past" } ] },
+
+{ set: ["brake","break"],
+  hints: ["brake = the part that stops a car or bike (brake, like rake: you pull it)", "break = smash, or a rest (break a glass; a short break)"],
+  quiz: [ { s: "Squeeze the ___ to stop your bike.", a: "brake" }, { s: "Be careful not to ___ the glass.", a: "break" }, { s: "The driver stepped hard on the ___.", a: "brake" }, { s: "We had a short ___ after the test.", a: "break" }, { s: "Did you ___ your arm when you fell?", a: "break" } ] },
+
+{ set: ["flour","flower"],
+  hints: ["flour = white powder for baking (flour is for our cake)", "flower = the pretty part of a plant (flower has ow, like a bow)"],
+  quiz: [ { s: "Mum needs ___ to bake a cake.", a: "flour" }, { s: "A bee landed on the ___.", a: "flower" }, { s: "She picked a red ___ from the garden.", a: "flower" }, { s: "Mix the ___ with the eggs and sugar.", a: "flour" }, { s: "Bread is made from ___ and water.", a: "flour" } ] },
+
+{ set: ["sea","see"],
+  hints: ["sea = salty water (sea, beach, ocean all have ea)", "see = with your eyes (see has two e's like two eyes)"],
+  quiz: [ { s: "I can ___ the stars tonight.", a: "see" }, { s: "We swam in the ___ at East Coast.", a: "sea" }, { s: "Can you ___ the bus coming?", a: "see" }, { s: "The ship sailed across the ___.", a: "sea" }, { s: "Let me ___ your drawing.", a: "see" } ] },
+
+{ set: ["stationary","stationery"],
+  hints: ["stationary = standing still (a for stAnding, like a parked cAr). Level C.", "stationery = pens, paper and envelopes (e for pEns and papEr). Level C."],
+  quiz: [ { s: "The car was ___ at the red light.", a: "stationary" }, { s: "I bought pens at the ___ shop.", a: "stationery" }, { s: "The train stayed ___ for ten minutes.", a: "stationary" }, { s: "Mum keeps her ___ in the top drawer.", a: "stationery" }, { s: "Never get off a bus until it is ___.", a: "stationary" } ] }
+);
