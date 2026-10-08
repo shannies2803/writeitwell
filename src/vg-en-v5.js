@@ -510,7 +510,7 @@ window.VG.push({
   "lv": "B",
   "q": "We bought fresh fish at the void deck this morning.",
   "err": "void deck",
-  "a": "wet market",
+  "a": ["wet market", "market"],
   "why": "Fresh fish is sold at the wet market, not at the void deck."
   },
   {
@@ -1012,7 +1012,7 @@ window.VG.push({
   "lv": "B",
   "q": "The X-ray showed that Raj had a sprain in his arm bone.",
   "err": "sprain",
-  "a": "fracture",
+  "a": ["fracture", "break"],
   "why": "A break or crack in a bone is a fracture. A sprain is a twisted joint."
   },
   {
@@ -1540,7 +1540,7 @@ window.VG.push({
   "lv": "A",
   "q": "Last holiday, we took an airplane to Seoul.",
   "err": "airplane",
-  "a": "aeroplane",
+  "a": ["aeroplane", "plane"],
   "why": "British spelling: aeroplane."
   },
   {
@@ -1564,7 +1564,7 @@ window.VG.push({
   "lv": "B",
   "q": "We alighted the bus at Ang Mo Kio and sat at the back.",
   "err": "alighted",
-  "a": "boarded",
+  "a": ["boarded", "got on"],
   "why": "You must board (get on) the bus before you can sit in it."
   },
   {
@@ -2590,7 +2590,7 @@ window.VG.push({
   "lv": "B",
   "q": "We won the other class in the tug-of-war.",
   "err": "won",
-  "a": "beat",
+  "a": ["beat", "defeated"],
   "why": "You beat a team. You win a game or prize."
   },
   {
@@ -2614,7 +2614,7 @@ window.VG.push({
   "lv": "B",
   "q": "The audience at the stadium cheered for the runners.",
   "err": "audience",
-  "a": "spectators",
+  "a": ["spectators", "crowd", "fans"],
   "why": "People who watch sport are spectators."
   },
   {
@@ -3630,7 +3630,7 @@ window.VG.push({
   "lv": "B",
   "q": "It was unpolite of him to ignore the auntie's greeting.",
   "err": "unpolite",
-  "a": "impolite",
+  "a": ["impolite", "rude"],
   "why": "The opposite of polite is impolite."
   },
   {
@@ -4171,7 +4171,7 @@ window.VG.push({
   "lv": "B",
   "q": "The choir played their trumpets and violins.",
   "err": "choir",
-  "a": "orchestra",
+  "a": ["orchestra", "band"],
   "why": "A choir sings. An orchestra plays instruments."
   },
   {
@@ -4179,7 +4179,7 @@ window.VG.push({
   "lv": "B",
   "q": "I painted a portrait of the beach at sunset.",
   "err": "portrait",
-  "a": "landscape",
+  "a": ["landscape", "picture", "painting"],
   "why": "A picture of scenery is a landscape."
   },
   {
@@ -4187,7 +4187,7 @@ window.VG.push({
   "lv": "B",
   "q": "We tapped our feet to the rythm of the song.",
   "err": "rythm",
-  "a": "rhythm",
+  "a": ["rhythm", "beat"],
   "why": "Spell it r-h-y-t-h-m."
   },
   {

@@ -150,7 +150,7 @@ function sheetView(b,v){const u=BY[v.id];const xs=itemsFor(u,showAll).slice(0,30
     if(it.t==="fix")return '<li>'+(zh()?"改正错误：":"Correct the mistake: ")+esc(it.q)+'<br>__________________</li>';
     if(it.t==="fill")return '<li>'+esc(it.q).replace("___","________")+'</li>';
     return '<li>'+esc(it.q)+'<br>______________________________________________<br>______________________________________________</li>'}).join("")+'</ol>'+
-    '<h3 style="break-before:page">'+t().key+'</h3><ol style="columns:2">'+xs.map(x=>{const it=x.it;return '<li>'+(it.t==="mcq"?"("+lt2(it.a)+") "+esc(it.o[it.a]):it.t==="fix"?esc(it.err)+" → "+esc(it.a):esc(it.a[0]))+'</li>'}).join("")+'</ol>'))}
+    '<h3 style="break-before:page">'+t().key+'</h3><ol style="columns:2">'+xs.map(x=>{const it=x.it;return '<li>'+(it.t==="mcq"?"("+lt2(it.a)+") "+esc(it.o[it.a]):it.t==="fix"?esc(it.err)+" → "+esc([].concat(it.a)[0]):esc(it.a[0]))+'</li>'}).join("")+'</ol>'))}
 
 /* Today page card */
 const _rt=renderToday;renderToday=function(){_rt.apply(this,arguments);try{const m=$("#main");if(m.querySelector(".vgToday"))return;const n=bankKeys(S(),true).length;

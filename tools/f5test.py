@@ -1,0 +1,15 @@
+from playwright.sync_api import sync_playwright
+with sync_playwright() as p:
+    b=p.chromium.launch();ctx=b.new_context(viewport={'width':390,'height':860},accept_downloads=True);pg=ctx.new_page()
+    errs=[];pg.on('pageerror',lambda e:errs.append(str(e)))
+    pg.goto('http://localhost:8765/#en-today');pg.wait_for_timeout(1500)
+    if pg.locator('#asGuest').count():pg.click('#asGuest')
+    pg.evaluate("localStorage.setItem('wiw2-stage:guest',JSON.stringify('A'))");pg.goto('http://localhost:8765/#en-idioms');pg.reload();pg.wait_for_timeout(1500)
+    print('folded idioms:',pg.locator('#main details:has(summary:has-text("Harder"))').count())
+    pg.evaluate("location.hash='en-report'");pg.wait_for_timeout(800)
+    with pg.expect_download() as d: pg.locator('#main .btn:has-text("Save progress file")').click()
+    path=d.value.path();txt=open(path).read();print('file starts:',txt[:8],len(txt))
+    pg.evaluate("location.hash='en-myspell'");pg.wait_for_timeout(500);pg.click('.sp-tabs [data-t=test]');pg.wait_for_timeout(200)
+    pg.fill('.sp-card textarea','because\nfriend');pg.click('.sp-card .sv');pg.wait_for_timeout(200)
+    pg.locator('#main .btn:has-text("Dictation sheet")').click();pg.wait_for_timeout(200);print('sheet items:',pg.locator('.sp-print li').count(),pg.inner_text('.sp-print li'))
+    print('errors:',errs[:3]);b.close()

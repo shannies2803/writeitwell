@@ -11,7 +11,7 @@ V.forEach((u,ui)=>{const k="topic "+ui+" "+u.id;if(!isS(u.id)||ids.has(u.id))err
   if(!Array.isArray(u.items)||u.items.length<25)errs.push(k+": need 25+ items (has "+(u.items||[]).length+")");
   (u.items||[]).forEach((it,j)=>{const q=k+" item"+j;n++;by[it.t]=(by[it.t]||0)+1;if(!LV.includes(it.lv))errs.push(q+": lv");if(!isS(it.q))errs.push(q+": q");if(!isS(it.why))errs.push(q+": why");
     if(it.t==="mcq"){if(!Array.isArray(it.o)||it.o.length<3||it.o.length>4)errs.push(q+": o 3-4");else{if(new Set(it.o).size!==it.o.length)errs.push(q+": duplicate options");if(!(Number.isInteger(it.a)&&it.a>=0&&it.a<it.o.length))errs.push(q+": a index")}}
-    else if(it.t==="fix"){if(!isS(it.err)||!it.q.includes(it.err))errs.push(q+": err must appear in q");if(!isS(it.a))errs.push(q+": a")}
+    else if(it.t==="fix"){if(!isS(it.err)||!it.q.includes(it.err))errs.push(q+": err must appear in q");if(!(isS(it.a)||(Array.isArray(it.a)&&it.a.length&&it.a.every(isS))))errs.push(q+": a (string or list)")}
     else if(it.t==="fill"){if((it.q.match(/___/g)||[]).length!==1)errs.push(q+": exactly one ___");if(!Array.isArray(it.a)||!it.a.length||it.a.some(x=>!isS(x)))errs.push(q+": a list")}
     else if(it.t==="trans"){if(!Array.isArray(it.a)||!it.a.length||it.a.some(x=>!isS(x)))errs.push(q+": a list")}
     else errs.push(q+": type "+it.t);

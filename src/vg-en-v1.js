@@ -522,7 +522,7 @@ window.VG.push({
    "lv": "A",
    "q": "The baby gobbled her milk slowly, one small mouthful at a time.",
    "err": "gobbled",
-   "a": "sipped",
+   "a": ["sipped", "drank"],
    "why": "Gobbled means ate very fast, but the baby drank slowly. Sipped means drank a little at a time."
   },
   {
@@ -530,7 +530,7 @@ window.VG.push({
    "lv": "B",
    "q": "Mrs Tan glanced at the painting for ten whole minutes.",
    "err": "glanced",
-   "a": "stared",
+   "a": ["stared", "gazed", "looked"],
    "why": "A glance is a very quick look, not ten minutes. Stared means looked for a long time."
   },
   {
@@ -538,7 +538,7 @@ window.VG.push({
    "lv": "B",
    "q": "Lim yelled the secret softly into his sister's ear.",
    "err": "yelled",
-   "a": "whispered",
+   "a": ["whispered", "murmured"],
    "why": "Yelled is loud, but the secret was told softly. Whispered means spoke very softly."
   },
   {
@@ -546,7 +546,7 @@ window.VG.push({
    "lv": "B",
    "q": "Late for school, Nadia strolled to the MRT station as fast as she could.",
    "err": "strolled",
-   "a": "dashed",
+   "a": ["dashed", "ran", "raced", "rushed", "hurried"],
    "why": "Strolled means walked slowly and calmly, which does not fit 'as fast as she could'. Dashed means ran very fast."
   },
   {
@@ -554,7 +554,7 @@ window.VG.push({
    "lv": "B",
    "q": "The old man stumbled calmly through the garden, enjoying the flowers.",
    "err": "stumbled",
-   "a": "strolled",
+   "a": ["strolled", "walked", "wandered", "ambled"],
    "why": "Stumbled means tripped, which is not calm. Strolled means walked slowly for pleasure, like enjoying flowers."
   }
  ]
@@ -1095,7 +1095,7 @@ window.VG.push({
    "lv": "B",
    "q": "Lisa is so generous that she never lets anyone borrow her pencils.",
    "err": "generous",
-   "a": "selfish",
+   "a": ["selfish", "stingy", "mean"],
    "why": "Never sharing is selfish. Generous means happy to share, so it does not fit."
   },
   {
@@ -1103,7 +1103,7 @@ window.VG.push({
    "lv": "B",
    "q": "The timid fireman rushed into the burning flat to save the cat.",
    "err": "timid",
-   "a": "brave",
+   "a": ["brave", "courageous", "fearless", "bold"],
    "why": "Timid means easily frightened. Rushing into a fire to save a cat is brave."
   },
   {
@@ -1111,7 +1111,7 @@ window.VG.push({
    "lv": "B",
    "q": "Raj boasted about his medal because he is very humble.",
    "err": "humble",
-   "a": "boastful",
+   "a": ["boastful", "proud", "arrogant"],
    "why": "Humble people do not show off. Someone who boasts is boastful."
   },
   {
@@ -1127,7 +1127,7 @@ window.VG.push({
    "lv": "C",
    "q": "The careless girl checked her work three times before handing it in.",
    "err": "careless",
-   "a": "careful",
+   "a": ["careful", "thorough"],
    "why": "Checking your work three times is careful. Careless people do not check, so they make mistakes."
   }
  ]
@@ -1662,7 +1662,7 @@ window.VG.push({
    "lv": "B",
    "q": "Leo was bored when he won the gold medal, and he cheered loudly.",
    "err": "bored",
-   "a": "thrilled",
+   "a": ["thrilled", "excited", "delighted", "overjoyed", "happy"],
    "why": "Nobody cheers loudly when they are bored. Winning gold makes you thrilled: very happy and excited."
   },
   {
@@ -1670,7 +1670,7 @@ window.VG.push({
    "lv": "A",
    "q": "Kim felt grateful when someone pushed her in the queue.",
    "err": "grateful",
-   "a": "annoyed",
+   "a": ["annoyed", "angry", "upset", "irritated"],
    "why": "Grateful means thankful. Being pushed would make you annoyed, a little angry."
   },
   {
@@ -1678,7 +1678,7 @@ window.VG.push({
    "lv": "B",
    "q": "Ahmad felt proud after he broke the window and lied about it.",
    "err": "proud",
-   "a": "ashamed",
+   "a": ["ashamed", "guilty"],
    "why": "Proud is for something you did well. After doing something wrong, you feel ashamed."
   },
   {
@@ -1686,7 +1686,7 @@ window.VG.push({
    "lv": "B",
    "q": "The children felt lonely as they played together happily at the party.",
    "err": "lonely",
-   "a": "delighted",
+   "a": ["delighted", "happy", "joyful", "cheerful"],
    "why": "Lonely means sad because you are alone, but the children were together and happy. Delighted fits."
   }
  ]
@@ -2231,7 +2231,7 @@ window.VG.push({
    "lv": "B",
    "q": "The bustling street was silent, with not a single car or person in sight.",
    "err": "bustling",
-   "a": "deserted",
+   "a": ["deserted", "empty"],
    "why": "Bustling means full of busy people, but this street was empty. Deserted means nobody there."
   },
   {
@@ -2239,7 +2239,7 @@ window.VG.push({
    "lv": "B",
    "q": "Our spacious classroom was so small that the desks touched one another.",
    "err": "spacious",
-   "a": "cramped",
+   "a": ["cramped", "crowded", "tiny"],
    "why": "Spacious means lots of room. A room so small that the desks touch is cramped."
   },
   {
@@ -2247,7 +2247,7 @@ window.VG.push({
    "lv": "B",
    "q": "After we cleaned it all day, the kitchen was filthy.",
    "err": "filthy",
-   "a": "spotless",
+   "a": ["spotless", "clean", "sparkling"],
    "why": "Filthy means very dirty. After cleaning all day, the kitchen would be spotless."
   },
   {
@@ -2255,7 +2255,7 @@ window.VG.push({
    "lv": "C",
    "q": "The cosy, dark forest made Amir shiver with fear.",
    "err": "cosy",
-   "a": "eerie",
+   "a": ["eerie", "creepy", "spooky", "scary", "gloomy"],
    "why": "Cosy means warm and safe, which would not make you shiver with fear. Eerie means strange and a little scary."
   }
  ]
@@ -2797,7 +2797,7 @@ window.VG.push({
    "lv": "B",
    "q": "We wore thick jackets because the day was scorching.",
    "err": "scorching",
-   "a": "chilly",
+   "a": ["chilly", "cold", "freezing"],
    "why": "Scorching means very hot, and you would not wear thick jackets. Chilly means quite cold."
   },
   {
@@ -2805,7 +2805,7 @@ window.VG.push({
    "lv": "B",
    "q": "The roses wilted beautifully after Grandma watered them every day.",
    "err": "wilted",
-   "a": "blossomed",
+   "a": ["blossomed", "bloomed", "flourished"],
    "why": "Wilted means drooped and looked weak. With water every day, the roses blossomed: burst into flower."
   },
   {
@@ -2813,7 +2813,7 @@ window.VG.push({
    "lv": "B",
    "q": "We woke up at dusk to watch the sun rise over the sea.",
    "err": "dusk",
-   "a": "dawn",
+   "a": ["dawn", "sunrise", "daybreak"],
    "why": "The sun rises at dawn. Dusk is when it gets dark in the evening."
   }
  ]
@@ -3961,7 +3961,7 @@ window.VG.push({
    "lv": "B",
    "q": "The butterfly galloped from flower to flower.",
    "err": "galloped",
-   "a": "fluttered",
+   "a": ["fluttered", "flitted", "flew"],
    "why": "Horses gallop. Butterflies flutter their wings quickly and lightly."
   },
   {
@@ -3985,7 +3985,7 @@ window.VG.push({
    "lv": "B",
    "q": "The dry leaves sizzled under our feet as we walked.",
    "err": "sizzled",
-   "a": "crunched",
+   "a": ["crunched", "crackled", "rustled"],
    "why": "Sizzle is the sound of frying food. Dry leaves under your feet crunch."
   }
  ]
@@ -4547,7 +4547,7 @@ window.VG.push({
    "lv": "B",
    "q": "The crispy cereal had gone soft in the milk.",
    "err": "crispy",
-   "a": "soggy",
+   "a": ["soggy", "mushy"],
    "why": "Cereal that has gone soft in milk is soggy. Crispy is the opposite."
   },
   {
@@ -4555,7 +4555,7 @@ window.VG.push({
    "lv": "B",
    "q": "This chilli crab is so bland that my mouth is on fire!",
    "err": "bland",
-   "a": "spicy",
+   "a": ["spicy", "hot", "fiery"],
    "why": "Bland means very little taste. A mouth on fire means the food is spicy."
   },
   {

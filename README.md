@@ -8,6 +8,7 @@ storage, per device and per learner.
 | File | What it is |
 | --- | --- |
 | `index.html` | The whole site, built from `src/`. This is what Netlify publishes. |
+| `sw.js`, `manifest.webmanifest`, `icons/` | Offline support and the home-screen app icon (built/kept alongside `index.html`). |
 | `src/` | The engine, the feature modules and every content file (word banks, essays, spelling lists, vocab & grammar questions, picture stories). |
 | `tools/` | Validators and Playwright smoke tests. Not part of the site. |
 | `docs/` | Writing briefs and the audit reports used to make and check the content. |
@@ -30,7 +31,7 @@ repository root).
 ## Editing
 
 1. Change files in `src/` (content files are plain JavaScript data; see `docs/*-SPEC.md` for each format).
-2. Rebuild: `cd src && python3 build.py` – this rewrites `index.html`.
+2. Rebuild: `cd src && python3 build.py` – this rewrites `index.html` and `sw.js` (with a new version number, so phones pick up the update).
 3. Check (optional but recommended):
 
 ```bash
@@ -46,7 +47,9 @@ cd ../tools                                       # visual smoke tests (Playwrig
 python3 smoke6.py; python3 smoke7.py; python3 smoke17.py
 ```
 
-4. Commit `src/` **and** the rebuilt `index.html`, then push.
+4. Commit `src/` **and** the rebuilt `index.html` and `sw.js`, then push.
+
+After the first visit the site works offline (a service worker saves it), and phones show an "Update now" button when a new version is pushed.
 
 Keep the site a single file with no external dependencies, so it keeps working
 on a school iPad with a weak signal. (Two optional extras load from the web
