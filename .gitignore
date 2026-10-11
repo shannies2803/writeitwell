@@ -7,3 +7,5 @@ tools/chk.js
 tools/preview.html
 
 !icons/*.png
+node_modules/
+package-lock.json

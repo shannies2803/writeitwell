@@ -1,6 +1,6 @@
 /* Write It Well service worker – lets the site work offline and load instantly.
    build.py fills in VERSION, so every rebuild makes phones fetch the new site. */
-const VERSION = "9c7e639241e4";
+const VERSION = "b6b5ecb62170";
 const CORE = "wiw-core-" + VERSION;
 const RUNTIME = "wiw-runtime";
 const CORE_FILES = ["/", "/index.html", "/manifest.webmanifest", "/icons/icon-192.png", "/icons/icon-512.png", "/icons/apple-touch-icon.png"];
@@ -22,12 +22,21 @@ self.addEventListener("fetch", e => {
     e.respondWith(caches.open(CORE).then(c => c.match("/index.html")).then(r => r || fetch(req)).catch(() => fetch(req)));
     return;
   }
+  // The pinyin library ships with the site (/vendor/): the file name carries its
+  // version, so once saved it never needs fetching again and works offline.
+  if (url.origin === location.origin && url.pathname.startsWith("/vendor/")) {
+    e.respondWith(caches.open(RUNTIME).then(c => c.match(req).then(hit => hit || fetch(req).then(res => {
+      if (res && res.ok) c.put(req, res.clone());
+      return res;
+    }))));
+    return;
+  }
   if (url.origin === location.origin) {
     e.respondWith(caches.match(req).then(r => r || fetch(req)));
     return;
   }
-  // Fonts and the pinyin library: use the saved copy, refresh it in the background.
-  if (/fonts\.(googleapis|gstatic)\.com|cdn\.jsdelivr\.net/.test(url.hostname)) {
+  // Fonts: use the saved copy, refresh it in the background.
+  if (/fonts\.(googleapis|gstatic)\.com/.test(url.hostname)) {
     e.respondWith(caches.open(RUNTIME).then(c => c.match(req).then(hit => {
       const net = fetch(req).then(res => { if (res && (res.ok || res.type === "opaque")) c.put(req, res.clone()); return res; }).catch(() => hit);
       return hit || net;

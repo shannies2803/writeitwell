@@ -43,16 +43,22 @@ node ../tools/validate-essays.js essays-*.js      # model essays
 node ../tools/validate-spell.js spell-en-*.js spell-zh-groups.js
 node ../tools/validate-vg.js vg-*.js              # vocab & grammar
 node ../tools/validate-pics.js picsets*.js        # picture stories
-node --check ../tools/chk.js                      # the built page's script parses
+node ../tools/check-built.js                      # the built page's scripts parse, no duplicate ids, no outside scripts
 
-cd ../tools                                       # visual smoke tests (Playwright + Chromium)
-python3 smoke6.py; python3 smoke7.py; python3 smoke17.py
+cd ../tools
+npm install && npx playwright install chromium    # once
+npm test                                          # all of the above in one go
+npm run test:all                                  # plus a real-browser check on a 375 px phone screen
+python3 smoke6.py; python3 smoke7.py; python3 smoke17.py   # older visual smoke tests (Python Playwright)
 ```
+
+GitHub runs `npm run test:all` on every push and pull request, and also rebuilds
+the site from `src/` to make sure the committed `index.html` is up to date.
 
 4. Commit `src/` **and** the rebuilt `index.html` and `sw.js`, then push.
 
 After the first visit the site works offline (a service worker saves it), and phones show an "Update now" button when a new version is pushed.
 
 Keep the site a single file with no external dependencies, so it keeps working
-on a school iPad with a weak signal. (Two optional extras load from the web
-when available: the Google Fonts and the pinyin library for Chinese pinyin.)
+on a school iPad with a weak signal. (The pinyin library ships with the site in `vendor/`, MIT licence. Only the
+Google Fonts load from the web, and the page falls back to system fonts without them.)

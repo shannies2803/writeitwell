@@ -167,7 +167,7 @@ let lexLoaded=false;function setEasy(on){document.documentElement.classList.togg
 document.addEventListener("click",ev=>{const c=ev.target.closest&&ev.target.closest("#main .chip");if(c&&stA()&&canSpeak){try{speak(c.textContent)}catch(e){}}},true);
 
 /* ---------- 14. pinyin on Chinese questions for P1–P2 ---------- */
-let pyP4=null;function loadPy(){if(window.pinyinPro)return Promise.resolve();if(pyP4)return pyP4;pyP4=new Promise((res,rej)=>{const s=document.createElement("script");s.src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.26.0/dist/index.js";s.onload=()=>window.pinyinPro?res():rej();s.onerror=()=>{pyP4=null;rej()};document.head.appendChild(s)});return pyP4}
+let pyP4=null;function loadPy(){if(window.pinyinPro)return Promise.resolve();if(pyP4)return pyP4;pyP4=new Promise((res,rej)=>{const s=document.createElement("script");s.src="/vendor/pinyin-pro-3.26.0.js";s.onload=()=>window.pinyinPro?res():rej();s.onerror=()=>{pyP4=null;rej()};document.head.appendChild(s)});return pyP4}
 function rubyIn(x){if(x.dataset.py4||!/[一-鿿]/.test(x.textContent))return;x.dataset.py4=1;try{x.innerHTML=x.innerHTML.split(/(<[^>]+>)/).map(seg=>seg.startsWith("<")?seg:(/[一-鿿]/.test(seg)?pinyinPro.html(seg):seg)).join("")}catch(e){}}
 const mo=new MutationObserver(()=>{if(!zh()||!stA()||!store.get("wiw2-py",true))return;const xs=document.querySelectorAll("#main .vg-q:not([data-py4]), #main .vg-opts button:not([data-py4]), #main .sp-sent:not([data-py4]), #main .vg-why div:not([data-py4])");if(!xs.length)return;loadPy().then(()=>xs.forEach(rubyIn)).catch(()=>{})});
 mo.observe(document.getElementById("main"),{childList:true,subtree:true});

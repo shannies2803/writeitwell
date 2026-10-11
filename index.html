@@ -95050,7 +95050,7 @@ function readAlong(art,btn){const t=ft();if(btn.dataset.on==="1"){speechSynthesi
     const parts=txt.match(lang==="zh"?/[^。！？!?]+[。！？!?”]*/g:/[^.!?]+[.!?”’"]*\s*/g)||[txt];const chunks=[];let cur="";parts.forEach(x=>{if((cur+x).length>180&&cur){chunks.push(cur);cur=x}else cur+=x});if(cur)chunks.push(cur);
     chunks.forEach((c,k)=>{const u=new SpeechSynthesisUtterance(c.trim());u.lang=v?v.lang:(lang==="zh"?"zh-CN":"en-GB");if(v)u.voice=v;u.rate=typeof speechRate==="function"?speechRate():0.95;if(k===chunks.length-1)u.onend=()=>{if(btn.dataset.on==="1")next()};speechSynthesis.speak(u)})}
   next()}
-function loadPinyin(){return new Promise((res,rej)=>{if(window.pinyinPro)return res();const s=document.createElement("script");s.src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.26.0/dist/index.js";s.onload=()=>window.pinyinPro?res():rej();s.onerror=rej;document.head.appendChild(s)})}
+function loadPinyin(){return new Promise((res,rej)=>{if(window.pinyinPro)return res();const s=document.createElement("script");s.src="/vendor/pinyin-pro-3.26.0.js";s.onload=()=>window.pinyinPro?res():rej();s.onerror=rej;document.head.appendChild(s)})}
 function applyPinyin(art){const walker=document.createTreeWalker(art,NodeFilter.SHOW_TEXT);const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
   nodes.forEach(n=>{if(!/[\u4e00-\u9fff]/.test(n.textContent))return;const span=document.createElement("span");span.innerHTML=pinyinPro.html(n.textContent);n.replaceWith(span)});art.classList.add("pymode")}
 const _re=renderEssay;renderEssay=function(e){_re(e);const t=ft();pushRecent(e.id);
@@ -95732,7 +95732,7 @@ const _wb=R.wordbank;R.wordbank=b=>{const w=_wb(b);const pills=w.querySelector("
   return w};
 
 /* pinyin for P1–P2 and the 低年级 bank */
-let pyP=null;function loadPy(){if(window.pinyinPro)return Promise.resolve();if(pyP)return pyP;pyP=new Promise((res,rej)=>{const s=document.createElement("script");s.src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.26.0/dist/index.js";s.onload=()=>window.pinyinPro?res():rej();s.onerror=()=>{pyP=null;rej()};document.head.appendChild(s)});return pyP}
+let pyP=null;function loadPy(){if(window.pinyinPro)return Promise.resolve();if(pyP)return pyP;pyP=new Promise((res,rej)=>{const s=document.createElement("script");s.src="/vendor/pinyin-pro-3.26.0.js";s.onload=()=>window.pinyinPro?res():rej();s.onerror=()=>{pyP=null;rej()};document.head.appendChild(s)});return pyP}
 function pyOn(){return store.get("wiw2-py",true)}
 function addPinyin(root){if(!zh()||!pyOn())return;loadPy().then(()=>{if(!root.isConnected)return;const P=window.pinyinPro;
   root.querySelectorAll(".chip:not([data-py])").forEach(c=>{const t=c.textContent.trim();if(/[一-鿿]/.test(t)&&t.length<=12)c.setAttribute("data-py",P.pinyin(t))});
@@ -96528,7 +96528,7 @@ let lexLoaded=false;function setEasy(on){document.documentElement.classList.togg
 document.addEventListener("click",ev=>{const c=ev.target.closest&&ev.target.closest("#main .chip");if(c&&stA()&&canSpeak){try{speak(c.textContent)}catch(e){}}},true);
 
 /* ---------- 14. pinyin on Chinese questions for P1–P2 ---------- */
-let pyP4=null;function loadPy(){if(window.pinyinPro)return Promise.resolve();if(pyP4)return pyP4;pyP4=new Promise((res,rej)=>{const s=document.createElement("script");s.src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.26.0/dist/index.js";s.onload=()=>window.pinyinPro?res():rej();s.onerror=()=>{pyP4=null;rej()};document.head.appendChild(s)});return pyP4}
+let pyP4=null;function loadPy(){if(window.pinyinPro)return Promise.resolve();if(pyP4)return pyP4;pyP4=new Promise((res,rej)=>{const s=document.createElement("script");s.src="/vendor/pinyin-pro-3.26.0.js";s.onload=()=>window.pinyinPro?res():rej();s.onerror=()=>{pyP4=null;rej()};document.head.appendChild(s)});return pyP4}
 function rubyIn(x){if(x.dataset.py4||!/[一-鿿]/.test(x.textContent))return;x.dataset.py4=1;try{x.innerHTML=x.innerHTML.split(/(<[^>]+>)/).map(seg=>seg.startsWith("<")?seg:(/[一-鿿]/.test(seg)?pinyinPro.html(seg):seg)).join("")}catch(e){}}
 const mo=new MutationObserver(()=>{if(!zh()||!stA()||!store.get("wiw2-py",true))return;const xs=document.querySelectorAll("#main .vg-q:not([data-py4]), #main .vg-opts button:not([data-py4]), #main .sp-sent:not([data-py4]), #main .vg-why div:not([data-py4])");if(!xs.length)return;loadPy().then(()=>xs.forEach(rubyIn)).catch(()=>{})});
 mo.observe(document.getElementById("main"),{childList:true,subtree:true});

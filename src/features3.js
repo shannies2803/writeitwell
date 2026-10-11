@@ -67,7 +67,7 @@ const _wb=R.wordbank;R.wordbank=b=>{const w=_wb(b);const pills=w.querySelector("
   return w};
 
 /* pinyin for P1–P2 and the 低年级 bank */
-let pyP=null;function loadPy(){if(window.pinyinPro)return Promise.resolve();if(pyP)return pyP;pyP=new Promise((res,rej)=>{const s=document.createElement("script");s.src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.26.0/dist/index.js";s.onload=()=>window.pinyinPro?res():rej();s.onerror=()=>{pyP=null;rej()};document.head.appendChild(s)});return pyP}
+let pyP=null;function loadPy(){if(window.pinyinPro)return Promise.resolve();if(pyP)return pyP;pyP=new Promise((res,rej)=>{const s=document.createElement("script");s.src="/vendor/pinyin-pro-3.26.0.js";s.onload=()=>window.pinyinPro?res():rej();s.onerror=()=>{pyP=null;rej()};document.head.appendChild(s)});return pyP}
 function pyOn(){return store.get("wiw2-py",true)}
 function addPinyin(root){if(!zh()||!pyOn())return;loadPy().then(()=>{if(!root.isConnected)return;const P=window.pinyinPro;
   root.querySelectorAll(".chip:not([data-py])").forEach(c=>{const t=c.textContent.trim();if(/[一-鿿]/.test(t)&&t.length<=12)c.setAttribute("data-py",P.pinyin(t))});

@@ -1,0 +1,13 @@
+{
+  "name": "writeitwell-checks",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Content validators and browser checks for Write It Well. Not part of the site.",
+  "scripts": {
+    "test": "node run-all.js",
+    "test:all": "node run-all.js --browser"
+  },
+  "devDependencies": {
+    "playwright": "^1.47.0"
+  }
+}
