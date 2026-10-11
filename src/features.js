@@ -178,7 +178,7 @@ function readAlong(art,btn){const t=ft();if(btn.dataset.on==="1"){speechSynthesi
     const parts=txt.match(lang==="zh"?/[^。！？!?]+[。！？!?”]*/g:/[^.!?]+[.!?”’"]*\s*/g)||[txt];const chunks=[];let cur="";parts.forEach(x=>{if((cur+x).length>180&&cur){chunks.push(cur);cur=x}else cur+=x});if(cur)chunks.push(cur);
     chunks.forEach((c,k)=>{const u=new SpeechSynthesisUtterance(c.trim());u.lang=v?v.lang:(lang==="zh"?"zh-CN":"en-GB");if(v)u.voice=v;u.rate=typeof speechRate==="function"?speechRate():0.95;if(k===chunks.length-1)u.onend=()=>{if(btn.dataset.on==="1")next()};speechSynthesis.speak(u)})}
   next()}
-function loadPinyin(){return new Promise((res,rej)=>{if(window.pinyinPro)return res();const s=document.createElement("script");s.src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.26.0/dist/index.js";s.onload=()=>window.pinyinPro?res():rej();s.onerror=rej;document.head.appendChild(s)})}
+function loadPinyin(){return new Promise((res,rej)=>{if(window.pinyinPro)return res();const s=document.createElement("script");s.src="/vendor/pinyin-pro-3.26.0.js";s.onload=()=>window.pinyinPro?res():rej();s.onerror=rej;document.head.appendChild(s)})}
 function applyPinyin(art){const walker=document.createTreeWalker(art,NodeFilter.SHOW_TEXT);const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
   nodes.forEach(n=>{if(!/[\u4e00-\u9fff]/.test(n.textContent))return;const span=document.createElement("span");span.innerHTML=pinyinPro.html(n.textContent);n.replaceWith(span)});art.classList.add("pymode")}
 const _re=renderEssay;renderEssay=function(e){_re(e);const t=ft();pushRecent(e.id);

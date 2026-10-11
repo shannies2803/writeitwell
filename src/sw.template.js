@@ -22,12 +22,21 @@ self.addEventListener("fetch", e => {
     e.respondWith(caches.open(CORE).then(c => c.match("/index.html")).then(r => r || fetch(req)).catch(() => fetch(req)));
     return;
   }
+  // The pinyin library ships with the site (/vendor/): the file name carries its
+  // version, so once saved it never needs fetching again and works offline.
+  if (url.origin === location.origin && url.pathname.startsWith("/vendor/")) {
+    e.respondWith(caches.open(RUNTIME).then(c => c.match(req).then(hit => hit || fetch(req).then(res => {
+      if (res && res.ok) c.put(req, res.clone());
+      return res;
+    }))));
+    return;
+  }
   if (url.origin === location.origin) {
     e.respondWith(caches.match(req).then(r => r || fetch(req)));
     return;
   }
-  // Fonts and the pinyin library: use the saved copy, refresh it in the background.
-  if (/fonts\.(googleapis|gstatic)\.com|cdn\.jsdelivr\.net/.test(url.hostname)) {
+  // Fonts: use the saved copy, refresh it in the background.
+  if (/fonts\.(googleapis|gstatic)\.com/.test(url.hostname)) {
     e.respondWith(caches.open(RUNTIME).then(c => c.match(req).then(hit => {
       const net = fetch(req).then(res => { if (res && (res.ok || res.type === "opaque")) c.put(req, res.clone()); return res; }).catch(() => hit);
       return hit || net;

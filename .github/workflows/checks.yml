@@ -1,0 +1,30 @@
+# Runs on each push and pull request. A red cross on GitHub means something broke.
+# Netlify publishes main as soon as it is pushed, so check this before merging.
+name: Checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: The committed site matches its sources (rebuild and compare)
+        run: |
+          cd src && python3 build.py && cd ..
+          git diff --exit-code -- index.html sw.js || (echo "index.html or sw.js is out of date: run 'cd src && python3 build.py' and commit" && exit 1)
+      - run: npm install --no-audit --no-fund
+        working-directory: tools
+      - run: npx playwright install --with-deps chromium
+        working-directory: tools
+      - run: npm run test:all
+        working-directory: tools
