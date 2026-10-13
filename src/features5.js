@@ -57,7 +57,7 @@ const _rep=PAGES.report&&PAGES.report.render;if(_rep)PAGES.report.render=functio
 /* ===== quick shortcuts to the big sections (Home, Today) ===== */
 (function(){
 const st=document.createElement("style");st.textContent=".qlinks{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:8px 0 12px}.qlinks button{display:flex;gap:10px;align-items:center;font:inherit;font-weight:700;font-size:1.05rem;text-align:left;padding:12px 14px;border-radius:14px;border:2px solid var(--blue);background:color-mix(in srgb,var(--blue) 8%,var(--card));color:var(--ink);cursor:pointer;min-height:56px}.qlinks button span{font-size:1.6rem}";document.head.appendChild(st);
-const L={en:[["myspell","🔤","My spelling"],["vg","📐","Vocab & Grammar"],["essays","📚","Model essays"],["report","📊","Parent report"]],zh:[["myspell","🔤","我的听写"],["vg","📐","词语与语法"],["essays","📚","范文库"],["report","📊","家长报告"]]};
+const L={en:[["myspell","🔤","My spelling"],["vg","📐","Vocab & Grammar"],["essays","📚","Model essays"],["exam","⏱","Exam practice"],["picwords","🖼","Picture words"],["report","📊","Parent report"]],zh:[["myspell","🔤","我的听写"],["vg","📐","词语与语法"],["essays","📚","范文库"],["exam","⏱","考试练习"],["picwords","🖼","看图学词"],["report","📊","家长报告"]]};
 function bar(){const b=el("nav","qlinks",L[lang].map(x=>'<button data-q="'+x[0]+'"><span>'+x[1]+'</span>'+x[2]+'</button>').join(""));b.setAttribute("aria-label","Shortcuts");
   b.addEventListener("click",ev=>{const x=ev.target.closest("[data-q]");if(!x)return;if(x.dataset.q==="essays")lstore.set("wiw2-essayopen-"+lang,"");openUnit(lang+"-"+x.dataset.q,true)});return b}
 function add(){const m=$("#main");if(m.querySelector(".qlinks"))return;const head=m.querySelector(".head");if(head)head.after(bar());else m.prepend(bar())}
