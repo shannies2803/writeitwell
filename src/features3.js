@@ -43,7 +43,7 @@ Object.assign(L10.en.cls,{c:"Joining words",fig:"Picture words (similes and more
 Object.assign(L10.en,{hlOn:"Hide colours",hlOff:"Show colours"});Object.assign(L10.zh,{hlOn:"隐藏颜色",hlOff:"显示颜色"});
 
 /* paths and icons for the expert's new lessons */
-Object.assign(ICONMAP,{firststory:"pencil",picseries:"pictures",kantu:"pictures",yiduan:"paragraph",xieren:"person"});
+Object.assign(ICONMAP,{firststory:"pencil",picseries:"pictures",kantu:"pictures",yiduan:"paragraph",xieren:"person",helping:"heart",accidents:"bandage",mystery:"moon",fantasy:"comet",gadgets:"lightbulb",getaround:"map",choices:"scale",funny:"mask",timewords:"clock",colours:"palette"});
 function setPath(l,k,arr){PATHS[l][k]=arr.filter(id=>DATA[l].some(u=>u.id===id))}
 setPath("en","A",["en-firststory","en-picseries","en-picstories","en-firstwords","en-openings","en-feelings","en-senses","en-wordswap","en-dialogue","en-punctuation","en-actionverbs","en-showtell","en-ladders","en-spelling","en-warmups","en-starters","en-models3","en-studio"]);
 {const B=PATHS.en.B.slice();const ins=(after,id)=>{if(B.includes(id))return;const i=B.indexOf(after);B.splice(i<0?B.length:i+1,0,id)};ins("en-plan","en-picseries");ins("en-dialogue","en-punctuation");const mi=B.indexOf("en-models");if(!B.includes("en-walkthrough"))B.splice(mi<0?B.length:mi,0,"en-walkthrough");setPath("en","B",B)}
@@ -76,7 +76,7 @@ function needPy(id){return zh()&&(id==="zh-chuxue"||id==="zh-kantu"||(stA()&&(re
 $("#pyBtn").addEventListener("click",()=>setTimeout(()=>{if(current&&needPy(current.id)){if(pyOn())addPinyin($("#main"));else{$("#main").querySelectorAll(".chip[data-py]").forEach(c=>c.removeAttribute("data-py"))}}},50));
 
 /* level badges for word banks (suggested starting level) */
-const LV_A=new Set(["firstwords","chuxue","feelings","senses","actionverbs","soundwords","faces","body","animals","dongwu","food","meishi","homelife","jiating","school","xiaoyuan","sport","yundong","festivals","jieri","travel","lvxing","places","scenery","nature","ziran","xiangsheng","reduplication","measure","adjectives","movement","perform","biaoyan","science","kexue","health","kanbing","talk","duihua","people","sglife","xinjiapo","wugan2","sensephrases","actionwords","dongzuo2","shentai","similes","biyu"]);
+const LV_A=new Set(["firstwords","chuxue","feelings","senses","actionverbs","soundwords","faces","body","animals","dongwu","food","meishi","homelife","jiating","school","xiaoyuan","sport","yundong","festivals","jieri","travel","lvxing","places","scenery","nature","ziran","xiangsheng","reduplication","measure","adjectives","movement","perform","biaoyan","science","kexue","health","kanbing","talk","duihua","people","sglife","xinjiapo","wugan2","sensephrases","actionwords","dongzuo2","shentai","similes","biyu","colours","helping","funny","getaround"]);
 const LV_C=new Set(["idioms2","chengyu2","xiehouyu","sayings","formal","shiyong","confused","yihun","reflect","ganwu","golden","haoju","sentencebank","miaoxie","jinfan","sizi","patterns","wordfamilies","zizu","bank"]);
 function bankLv(id){const k=id.replace(/^(en|zh)-/,"");return LV_A.has(k)?0:LV_C.has(k)?2:1}
 const LVTXT={en:["P1+","P3+","P5+"],zh:["小一起","小三起","小五起"]};
