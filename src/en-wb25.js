@@ -34,7 +34,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
     ]},
 
     { type: "chips", title: "Shades of colour", groups: [
-      { title: "Reds and oranges", words: ["cherry red", "tomato red", "rose red", "ruby", "brick red", "rust", "chilli red", "wine red", "blood red", "pillar-box red", "flame orange", "tangerine", "peach", "apricot", "carrot orange", "burnt orange", "salmon pink", "copper"],
+      { title: "Reds and oranges", words: ["cherry red", "tomato red", "rose red", "ruby", "brick red", "rust", "chilli red", "wine red", "strawberry red", "pillar-box red", "flame orange", "tangerine", "peach", "apricot", "carrot orange", "burnt orange", "salmon pink", "copper"],
         ex: "The new MRT seats were a cheerful <b>tomato red</b>.",
         note: "Naming a colour after a real thing (tomato, brick, chilli) helps your reader picture it at once." },
       { title: "Yellows and golds", words: ["lemon yellow", "butter yellow", "banana yellow", "sunflower yellow", "canary yellow", "egg-yolk yellow", "creamy yellow", "honey-coloured", "straw-coloured", "sandy", "buttercup yellow", "pale gold", "brassy", "durian yellow"],
@@ -47,7 +47,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
         ex: "Priya’s Deepavali dress was a rich <b>magenta</b> with a thin gold border.",
         note: "Lavender and baby pink feel gentle; magenta and hot pink feel loud and bold." },
       { title: "Browns", words: ["chocolate brown", "coffee brown", "caramel", "toffee-coloured", "chestnut", "hazel", "tan", "beige", "fawn", "mud brown", "rusty brown", "cinnamon", "walnut", "milky-tea brown", "kaya brown", "sun-browned"],
-        ex: "Our poodle has curly <b>caramel</b> fur and a nose like a <b>chocolate</b> button." },
+        ex: "Our poodle has curly <b>caramel</b> fur and a nose like a chocolate button." },
       { title: "Blacks, greys and whites", words: ["jet black", "inky black", "coal black", "pitch black", "ash grey", "slate grey", "silver-grey", "pebble grey", "mouse grey", "storm grey", "snow white", "milk white", "chalk white", "pearl white", "off-white", "cream", "bone white", "concrete grey"],
         ex: "The <b>storm grey</b> clouds rolled over the blocks, and the first drops hit the corridor railings." }
     ]},
@@ -68,16 +68,16 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
         ex: "Dad’s shoes were so <b>polished</b> that I could see my nose in them.",
         note: "Glistening is for wet things (a dewy leaf, a sweaty face); glinting is a quick flash of light on metal or glass." },
       { title: "Not shiny at all", words: ["dull", "matt", "chalky", "dusty", "smudged", "grubby", "cloudy", "murky", "sun-bleached", "washed-out", "lifeless", "tarnished", "scuffed", "greasy"],
-        ex: "The silver trophy in the cupboard had turned <b>tarnished</b> and <b>dull</b> over the years." },
+        ex: "After years in the cupboard, the silver trophy was <b>tarnished</b> and <b>dull</b>." },
       { title: "See-through or not", note: "P4 and up", words: ["clear", "transparent", "crystal-clear", "glassy", "frosted", "misty", "steamy", "fogged-up", "translucent", "paper-thin", "milky", "solid", "opaque", "blurry"],
-        ex: "The bathroom mirror was <b>fogged-up</b>, so I drew a smiley face on it.",
+        ex: "After my hot shower, the bathroom mirror was all <b>steamy</b>, so I drew a smiley face on it.",
         note: "Transparent: you can see clearly through it. Translucent: light comes through, but not a clear picture (like a paper lantern). Opaque: nothing comes through." },
       { title: "Light that moves", words: ["twinkled", "flickered", "flashed", "blinked", "shimmered", "sparkled", "glittered", "danced on the water", "bounced off the windows", "glowed softly", "beamed", "winked", "pulsed", "faded away"],
-        ex: "The fairy lights on the corridor <b>twinkled</b> as Hari Raya drew near." }
+        ex: "The fairy lights along our corridor <b>twinkled</b> as Hari Raya drew near." }
     ]},
 
     { type: "chips", title: "Shapes in more detail", groups: [
-      { title: "Shape describing words", note: "P3 and up", words: ["circular", "dome-shaped", "cone-shaped", "diamond-shaped", "boat-shaped", "fan-shaped", "bell-shaped", "drop-shaped", "pear-shaped", "crescent-shaped", "arched", "coiled", "hooked", "knobbly", "stubby", "tapering", "bulging", "dented", "squashed", "flattened", "rounded", "cube-like", "starry"],
+      { title: "Shape describing words", note: "P3 and up", words: ["circular", "dome-shaped", "cone-shaped", "diamond-shaped", "boat-shaped", "fan-shaped", "bell-shaped", "drop-shaped", "pear-shaped", "crescent-shaped", "arched", "coiled", "hooked", "knobbly", "stubby", "tapering", "bulging", "dented", "squashed", "flattened", "rounded", "cube-like", "lopsided"],
         ex: "The <b>dome-shaped</b> roof of the mosque shone gold in the evening sun." },
       { title: "Lines and edges", words: ["a sharp edge", "a rounded corner", "a jagged crack", "a wavy line", "a dotted line", "a straight edge", "a curved handle", "a pointed tip", "a frilly border", "a chipped rim", "a smooth curve", "a ragged hole", "a crooked line", "a neat fold"],
         ex: "There was <b>a jagged crack</b> right across the screen of Kor Kor’s phone.",
@@ -97,7 +97,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
         ex: "The new fridge <b>towered over</b> the old one and <b>dwarfed</b> everything else in our kitchen.",
         note: "Dwarfed means made something look tiny next to it." },
       { title: "Tall, long, wide and thick", note: "P3 and up", words: ["lanky", "gangly", "stocky", "squat", "stumpy", "towering", "lofty", "slender", "slim", "broad", "spacious", "cramped", "poky", "endless", "stretched out", "chunky", "wafer-thin", "as thick as a dictionary"],
-        ex: "Wei Ming was <b>lanky</b> and his younger brother was <b>stocky</b>, so they looked funny standing side by side.",
+        ex: "Wei Ming was <b>lanky</b> and his younger brother was <b>stocky</b>, so it was easy to tell them apart.",
         note: "Cramped and poky describe small spaces that feel too full; spacious is the opposite." }
     ]},
 
@@ -125,7 +125,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
     ]},
 
     { type: "chips", title: "Patterns", groups: [
-      { title: "Pattern words", note: "Easy – P1/P2", words: ["spotty", "stripy", "dotty", "checked", "flowery", "polka-dot", "wavy lines", "rainbow stripes", "star print", "animal print"],
+      { title: "Pattern words", note: "Easy – P1/P2", words: ["spotty", "stripy", "heart print", "checked", "flowery", "polka-dot", "wavy lines", "rainbow stripes", "star print", "animal print"],
         ex: "Mei Ling wore a <b>polka-dot</b> dress with tiny white spots." },
       { title: "More pattern words", note: "P3 and up", words: ["striped", "pinstriped", "speckled", "freckled", "dappled", "mottled", "streaked", "splotchy", "blotchy", "tartan", "chequered", "floral", "paisley", "tie-dyed", "patchwork", "criss-cross", "swirly", "geometric", "batik", "camouflage"],
         ex: "Sunlight came through the rain tree and left a <b>dappled</b> pattern on the path.",
@@ -174,7 +174,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
       { title: "Colours that set a feeling", note: "P4 and up", words: ["The room was all soft creams and pale blues, calm and quiet.", "Everything in the ward was a tired, faded green.", "The corridor lights gave the walls a sickly yellow glow.", "Splashes of bright colour made the old playground look happy again.", "The dark grey sky pressed down on the field.", "A single red leaf lay on the grey pavement.", "The room was gloomy, all browns and shadows.", "The morning light turned the whole kitchen gold."],
         ex: "The dark grey sky pressed down on the field, and nobody felt like running any more.",
         note: "Bright, warm colours feel happy. Greys and dull greens feel sad or tired. One colour detail is enough to change the mood." },
-      { title: "Size and shape for feelings", note: "P4 and up", words: ["The hall felt enormous, and I felt very small.", "The doctor’s needle looked as long as a pencil.", "The stage seemed to stretch for miles.", "The exam paper looked thicker than a phone book.", "The empty classroom felt twice as big as usual.", "The waiting room was cramped and stuffy.", "My worry shrank to the size of a pea.", "His shadow stretched long and thin across the floor."],
+      { title: "Size and shape for feelings", note: "P4 and up", words: ["The hall felt enormous, and I felt very small.", "The doctor’s needle looked as long as a pencil.", "The stage seemed to stretch for miles.", "The exam paper looked thicker than a dictionary.", "The empty classroom felt twice as big as usual.", "The waiting room was cramped and stuffy.", "My worry shrank to the size of a pea.", "His shadow stretched long and thin across the floor."],
         ex: "The hall felt enormous, and I felt very small as I walked up to the microphone.",
         note: "When we are nervous, things look bigger. Writers use this trick to show fear without saying “I was scared”." }
     ]},
@@ -214,7 +214,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
     ]},
 
     { type: "mcq", title: "Quick check", intro: "Choose the best answer.", items: [
-      { q: "Which word means “so thin that light shines through, but you cannot see clearly through it”?", o: ["opaque", "translucent", "glossy"], a: 1, e: "Translucent things, like a paper lantern, let light through without a clear picture." },
+      { q: "Which word means “lets light through, but you cannot see clearly through it”?", o: ["opaque", "translucent", "glossy"], a: 1, e: "Translucent things, like a paper lantern, let light through without a clear picture." },
       { q: "Which is in the most natural order?", o: ["a red small purse", "a purse small red", "a small red purse"], a: 2, e: "Size comes before colour: a small red purse." },
       { q: "Which word best describes sunlight through leaves making spots of light and shade?", o: ["dappled", "striped", "faded"], a: 0, e: "Dappled means patches of light and shade." },
       { q: "A book with lots of folded page corners is ...", o: ["threadbare", "dog-eared", "rusty"], a: 1, e: "Dog-eared books have corners folded like a dog’s ear." },

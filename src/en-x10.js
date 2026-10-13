@@ -28,7 +28,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "I did not want to talk to anyone.",
 "I kept looking at the door.",
 "I wanted to say thank you a hundred times."
-], ex: "When Grandma came out of the hospital, I hugged her tight and smiled and smiled." },
+], ex: "When Grandma came home from the hospital, I hugged her tight. I smiled and smiled." },
 { title: "Easy two-part lines: the feeling, then what I did", note: "Easy – P1/P2. Name the feeling, then add what you did. That makes it come alive.", words: [
 "I was so happy that I hugged my friend.",
 "I was so scared that I closed my eyes.",
@@ -39,7 +39,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "I was so tired that I fell asleep in the car.",
 "I was so proud that I showed my medal to everyone.",
 "I was so hungry that my tummy rumbled in class.",
-"I was so nervous that my hands were wet.",
+"I was so nervous that my hands were sweaty.",
 "I was so bored that I counted the tiles on the floor.",
 "I was so sorry that I gave him my last sweet.",
 "I was so surprised that I dropped my spoon.",
@@ -50,7 +50,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "I was so glad that I laughed out loud.",
 "I was so upset that I cried into my pillow.",
 "I was so jealous that I would not play with them.",
-"I was so excited that I could not eat my breakfast.",
+"I was so grumpy that I would not smile for the photo.",
 "I was so embarrassed that I wanted the floor to swallow me up.",
 "I was so relieved that I sat down on the floor.",
 "I was so curious that I pressed my ear to the door.",
@@ -65,7 +65,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "laughing at the old photos, then going quiet",
 "waving goodbye with a grin and wet eyes",
 "proud of my brother, but the house felt too big without him",
-"the last day of P6 felt like a party and a funeral at once",
+"the last day of P6 felt like a party and a goodbye at once",
 "I wanted to cheer and cry in the same breath",
 "a happy ache in my chest",
 "I hugged her and did not want to let go",
@@ -84,7 +84,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "I looked back one last time before the gate closed",
 "my heart felt full and empty at once",
 "a goodbye wrapped in a hug"
-], ex: "On the last day of P6, I laughed at all the old photos, then had to look away." },
+], ex: "On the last day of P6, I smiled for the photo and felt something pull inside." },
 { title: "Excited and scared together", note: "Use these before a big event: a performance, a first day, a ride, a race.", words: [
 "my stomach fizzed with nerves and excitement",
 "I could not wait, and I wanted to run away",
@@ -111,7 +111,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "I read my speech one more time, then one more time",
 "I gave Mum a thumbs-up with a wobbly hand",
 "a nervous, happy laugh"
-], ex: "Standing in the queue for the ride, I grinned at Wei Ming, but my hands were shaking." },
+], ex: "Standing in the queue for the roller coaster, I grinned, but my hands were shaking." },
 { title: "Other mixes: proud, guilty, relieved, cross", note: "Two feelings can pull against each other. Show the tug-of-war.", words: [
 "proud of winning, guilty about how I won",
 "relieved he was safe, and furious he had run off",
@@ -138,7 +138,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "relieved, then a little ashamed of how relieved I was",
 "tempted, then guilty for being tempted",
 "I clapped for her, and my clap was a little too slow"
-], ex: "When the boy finally came back to the playground, his mother hugged him hard, then told him off." }
+], ex: "When I finally came back from the playground, Mum hugged me hard, then told me off." }
 ]},
 { type: "chips", title: "Brand-new: feelings that change as the story moves", groups: [
 { title: "Turning points: when one feeling becomes another", note: "Use these at the turning point of your story. They show a feeling changing, so your reader feels it change too.", words: [
@@ -199,12 +199,12 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "Sorry is a small word, but it fixed a big thing."
 ], ex: "I had lost the race, but I had not lost myself. I walked home lighter than I had walked there." }
 ]},
-{ type: "table", title: "New: a feeling journey through five stories", head: ["Story", "At the start", "When the problem hits", "At the end"], rows: [
+{ type: "table", title: "New: a feeling journey through six stories", head: ["Story", "At the start", "When the problem hits", "At the end"], rows: [
 ["First day at a new school", "My stomach was full of knots as I walked through the gate.", "Nobody saved me a seat, and I ate my lunch staring at my tray.", "By home time, I had two new friends and a joke I could not stop laughing at."],
 ["Losing Grandma’s ring", "I felt very grown-up wearing it to the wedding.", "My stomach dropped when I looked down and my finger was bare.", "When Dad found it under the car seat, I sat down and laughed with relief."],
 ["The class play", "I practised my lines every night, buzzing with excitement.", "On stage, my mind went blank and my face burned.", "When the audience laughed at my joke, the fear simply fell away."],
-["Breaking a friend’s toy", "I only wanted to borrow it for a minute.", "The crack sounded louder than thunder, and I hid it under my bed.", "Telling the truth was hard, but afterwards I felt clean and light."],
-["A lost puppy at the void deck", "I was curious about the whimpering behind the letterboxes.", "The puppy was shivering and thin, and my heart went out to it.", "When the owner ran over in tears, I felt warm all the way through."],
+["Breaking a friend’s toy", "I only wanted to borrow it for a minute.", "The plastic gave a sharp crack, and I hid the toy under my bed.", "Telling the truth was hard, but afterwards I felt clean and light."],
+["A lost puppy at the void deck", "I was curious about the whimpering behind the letterboxes.", "The puppy was shivering and thin, and my heart went out to it.", "When the owner came running and scooped it up, I felt warm all the way through."],
 ["Not picked for the team", "I was sure my name would be on the list.", "I read it three times. My name was not there.", "I trained harder all year, and the next list had my name near the top."]
 ]},
 { type: "chips", title: "Fresh angle: show feelings through what characters do with things", groups: [
@@ -233,7 +233,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "kept checking his phone though it had not buzzed",
 "tucked the drawing carefully between the pages of a book",
 "held the trophy as if it might break",
-"wiped her glasses that were already clean",
+"wiped her glasses, though they were already clean",
 "tore the bread into crumbs but ate none of it",
 "pressed the lift button again and again",
 "arranged his pencils in a perfect row",
@@ -262,7 +262,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "stopped asking me to play",
 "left the message on read",
 "did not join in the birthday song",
-"did not argue when I took the window seat",
+"did not even ask for the window seat",
 "stopped saving me a seat at recess",
 "never mentioned the competition again",
 "did not tease me, which was worse"
@@ -298,17 +298,17 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "“Shh! Did you hear that?”",
 "“It wasn’t me. Well… not exactly.”",
 "“I wish Grandpa could see this.”"
-], ex: "“I’m not crying,” Jun Hao muttered, wiping his face. “Something’s in my eye.”" },
+], ex: "Jun Hao wiped his face quickly. “I’m not crying. Something’s in my eye.”" },
 { title: "Saying one thing, feeling another", note: "People often hide what they feel. Write the words, then add one action that gives the truth away.", words: [
 "“I’m fine,” she said, and her voice cracked.",
 "“It doesn’t matter,” he said, kicking the wall.",
 "“Congratulations,” I said, and my smile felt stiff.",
 "“I’m not scared,” he whispered, edging closer to Dad.",
-"“Whatever,” she shrugged, but her eyes were shiny.",
+"“Whatever,” she said with a shrug, but her eyes were shiny.",
 "“I don’t care,” he said, too loudly.",
 "“Sure, you can have it,” I said, gripping it a little tighter.",
 "“That’s nice,” she said, not looking up.",
-"“No, I’m not tired,” he yawned.",
+"“No, I’m not tired,” he said, and then he yawned.",
 "“I wasn’t waiting for you,” she said, though she was still at the gate.",
 "“It was easy,” he said, wiping the sweat off his forehead.",
 "“I’m not hungry,” she said as her stomach growled.",
@@ -325,7 +325,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "“Never mind,” Mum said softly, and put the broken plate in the bin.",
 "“See if I care,” she muttered, and then she cared all night.",
 "“I don’t need help,” he said, struggling with the box."
-], ex: "“I’m fine,” Aisha said, and her voice cracked." },
+], ex: "Aisha shook her head. “I’m fine,” she said, and her voice cracked." },
 { title: "Dialogue beats: what speakers do between the words", note: "A beat is a small action next to the speech. It shows the feeling AND tells us who is talking.", words: [
 "she twisted the hem of her shirt",
 "he scuffed his shoe against the floor",
@@ -352,7 +352,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "she stopped halfway up the stairs",
 "he threw his hands in the air",
 "she held up one finger"
-], ex: "Mum set down her chopsticks. “Tell me what really happened.”" },
+], ex: "Mum looked at me for a long moment. Then she set down her chopsticks. “Tell me what really happened.”" },
 { title: "Paragraph-starters that open with a feeling", note: "Start a new paragraph with one of these, then show what happened next.", words: [
 "The moment I saw the envelope, my heart began to race.",
 "I had never felt so small in my whole life.",
@@ -374,7 +374,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "I wanted to say something, but the words would not come.",
 "Everything felt different after that phone call.",
 "I knew I had made a mistake the moment I said it."
-], ex: "The closer we got to the clinic, the slower I walked." }
+], ex: "The closer we got, the slower I walked. By the time we reached the clinic door, I was hardly moving." }
 ]},
 { type: "chips", title: "P4 and up: sharper feeling words", groups: [
 { title: "Precise feeling words – P4 and up", note: "P4 and up. Each word names a very exact feeling. Use one, then show it with an action.", words: [
@@ -409,7 +409,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "a big smile", "a little smile", "a happy face", "a sad face", "a cross face", "a funny face",
 "a sleepy face", "a sticky face", "a red nose", "wet cheeks", "round eyes", "tight lips",
 "a wide mouth", "a happy grin", "a little frown", "pink cheeks", "a hot face", "a messy face",
-"shiny eyes", "a quiet face", "a smiley face", "a grumpy face", "a scared face", "a kind face", "a cheeky face"
+"shiny eyes", "a quiet face", "a cheerful face", "a grumpy face", "a scared face", "a kind face", "a cheeky face"
 ], ex: "My baby brother had a sticky face and a big smile after his first ice cream." },
 { title: "Easy face sentences", note: "Easy – P1/P2. Copy one, then change the name.", words: [
 "Mum smiled at me.",
@@ -420,7 +420,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "Mei Ling frowned at her sums.",
 "My sister poked out her tongue.",
 "The baby smiled a gummy smile.",
-"Teacher looked at me over her glasses.",
+"My teacher looked at me over her glasses.",
 "I smiled so wide my cheeks hurt.",
 "Ali’s mouth made a big O.",
 "My eyes went wide.",
@@ -434,7 +434,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "Grandpa’s face crinkled when he laughed.",
 "I peeped through my fingers.",
 "My cat looked at me and blinked slowly."
-], ex: "The thunder was so loud that I covered my face and peeped through my fingers." }
+], ex: "The thunder was so loud that I covered my face with my hands." }
 ]},
 { type: "chips", title: "New: faces of the people in your story", groups: [
 { title: "Babies and little children", note: "Small children show every feeling all over their faces.", words: [
@@ -443,11 +443,11 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "a yawn as wide as his whole face", "eyelashes wet with tears", "a hiccupping sob",
 "stared at me without blinking", "a sudden, sunny smile", "a frown of deep concentration",
 "face pressed into Mum’s neck", "peeked out from behind Dad’s leg", "a squeal of delight",
-"a pink, scrunched-up face", "cheeks smeared with chocolate", "button nose", "a toothless smile",
+"a pink, scrunched-up face", "cheeks smeared with chocolate", "a button nose", "a toothless smile",
 "chin wobbling, about to cry"
 ], ex: "My baby cousin peeked out from behind Uncle’s leg, then gave me a sudden, sunny smile." },
 { title: "Grandparents and older faces", note: "Lines and wrinkles tell the story of a life. Describe them kindly.", words: [
-"laugh lines around her eyes", "a face as creased as a paper bag", "kind, crinkly eyes",
+"laugh lines around her eyes", "a face creased from years of smiling", "kind, crinkly eyes",
 "silver eyebrows", "a soft, papery cheek", "eyes misty behind thick glasses", "a gentle, gap-toothed smile",
 "skin tanned from years in the sun", "deep lines across his forehead", "a slow, proud nod",
 "peered at me over her spectacles", "eyes still bright and sharp", "a face that had seen a lot",
@@ -460,9 +460,9 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "a round face", "a long, thin face", "a heart-shaped face", "a square jaw", "high cheekbones",
 "a pointed chin", "a freckled nose", "a dimple in one cheek", "a small mole above her lip",
 "a scar across his eyebrow", "thick, bushy eyebrows", "long eyelashes", "a snub nose",
-"a crooked nose", "a broad, flat nose", "full lips", "thin lips", "a wide forehead",
+"a crooked nose", "rosy cheeks", "full lips", "thin lips", "a wide forehead",
 "sunburnt skin", "smooth brown skin", "pale, freckly skin", "a gap between her front teeth",
-"braces that flashed when he smiled", "an open, friendly face", "a serious face", "a face full of freckles",
+"braces that flashed when he smiled", "an open, friendly face", "a serious face", "a gentle, thoughtful face",
 "a stubbly chin", "a neat moustache"
 ], ex: "The new boy had a round face, a dimple in one cheek and braces that flashed when he smiled." },
 { title: "Glasses, hair and hats around the face", words: [
@@ -482,11 +482,11 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 "face went bright red from the spicy laksa", "sniffed and blew his nose over the curry", "closed her eyes at the first bite",
 "licked the kaya off her fingers", "cheeks full of rice", "a moustache of milk tea foam",
 "chewed slowly with a frown", "made a face at the bitter gourd", "swallowed hard and forced a smile",
-"sucked in his cheeks at the lime juice", "a mouth stained red from the dragon fruit", "grinned with chocolate on her teeth",
+"sucked in his cheeks at the lime juice", "a mouth stained pink from the dragon fruit", "grinned with chocolate on her teeth",
 "nodded with her mouth full", "hummed happily as she chewed", "blew on the soup with puffed cheeks",
 "slurped the noodles with his eyes shut", "a grain of rice stuck on his chin", "wrinkled her nose at the durian",
 "licked her lips", "lips burning from the hot soup", "smacked his lips", "teared up from the wasabi"
-], ex: "My cousin took one spoonful of the laksa, and his face went bright red as he fanned his mouth." },
+], ex: "My cousin took one big spoonful, and his face went bright red from the spicy laksa." },
 { title: "Laughing faces", note: "There are many kinds of laugh. Choose the one that fits the moment.", words: [
 "giggled behind her hand", "snorted with laughter", "laughed until tears ran down her face", "shook with silent laughter",
 "doubled over laughing", "laughed so hard no sound came out", "a burst of laughter", "chuckled to himself",
@@ -518,7 +518,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 ], ex: "When I stepped onto the stage, I saw a sea of faces, and then one face I knew – Mum, waving." },
 { title: "Pet and animal faces", note: "Animals have faces too. They are fun to describe in pet stories.", words: [
 "tilted his head to one side", "ears pricked up", "ears flattened against her head", "big, pleading eyes",
-"a guilty dog face", "whiskers twitching", "blinked slowly at me", "narrowed her yellow eyes",
+"a guilty, hangdog look", "whiskers twitching", "blinked slowly at me", "narrowed her yellow eyes",
 "a wet, black nose", "a lolling pink tongue", "a grey, whiskery muzzle", "eyebrows twitching as he watched me eat",
 "bared tiny teeth", "eyes gleaming in the dark", "a hopeful look at the treat jar", "nose twitching non-stop",
 "a sleepy, droopy-eyed face", "pressed his nose against my hand", "yawned and showed every tooth",

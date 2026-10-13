@@ -6,14 +6,14 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     { title: "Easy pairs at home", words: ["a big hug","a warm bed","a soft pillow","a cold drink","a hot bath","a bedtime story","a quick nap","a sweet dream","a happy face","a sad face","a loud cry","a tiny baby","a fluffy cat","a busy day","a fun game","a long walk","a short rest","a kind smile","a red balloon","a sunny day","a rainy day","brush my teeth","wash my hands","tidy my room","set the table","feed the fish","water the plants"],
       ex: "After <b>a long walk</b> in the park, I had <b>a hot bath</b> and climbed into my <b>warm bed</b>.",
       note: "Easy – P1/P2. Pick one pair for each sentence. Two short pairs make a sentence feel cosy." },
-    { title: "Easy pairs at school", words: ["a new friend","a best friend","a school bag","a water bottle","a pencil case","a sharp pencil","a blunt pencil","a clean page","neat handwriting","a gold star","a smiley sticker","a class party","a fire drill","a spelling test","a show-and-tell","line up","sit still","put up my hand","share my snack","say sorry","say thank you","read aloud","count to ten","tie my shoelaces"],
+    { title: "Easy pairs at school", words: ["a new friend","a best friend","a school bag","a water bottle","a pencil case","a sharp pencil","a blunt pencil","a clean page","neat handwriting","a gold star","a smiley sticker","a class party","a fire drill","a spelling test","show-and-tell time","line up","sit still","put up my hand","share my snack","say sorry","say thank you","read aloud","count to ten","tie my shoelaces"],
       ex: "I <b>put up my hand</b>, read my story aloud, and Miss Lee gave me <b>a gold star</b>.",
       note: "Easy – P1/P2." }
   ]},
   { type: "chips", title: "New word pairs: around Singapore", groups: [
     { title: "Hawker centres and markets", words: ["join the queue","jump the queue","a long queue","a busy stall","a famous stall","a sizzling wok","a clatter of plates","a hiss of steam","a waft of smoke","freshly squeezed juice","a plate piled high","a generous portion","a small portion","sold out","the lunchtime crowd","the dinner rush","a crowded hawker centre","haggle over prices","a bargain price","fresh produce","a wet floor","a sharp smell of fish","a basket of vegetables","the clink of coins","return the tray"],
       ex: "We joined <b>a long queue</b> at the chicken rice stall, squeezed in among <b>the lunchtime crowd</b>.",
-      note: "We <i>join</i> a queue and <i>jump</i> a queue (cut in unfairly). Never “cut the queue” in British English." },
+      note: "We <i>join</i> a queue and <i>jump</i> a queue (cut in unfairly). In standard British English we say “jump the queue”, not “cut the queue”." },
     { title: "On the move: MRT, bus and road", words: ["a crowded train","a packed carriage","the morning rush","rush hour","miss the bus","catch the train","a long wait","a bumpy ride","a smooth ride","a sharp bend","heavy traffic","a traffic jam","a slow crawl","the screech of brakes","a blaring horn","a short cut","a wrong turn","an empty seat","give up my seat","hold on tight","mind the gap","a sudden stop","a long journey","a quick trip"],
       ex: "In the <b>packed carriage</b>, I <b>gave up my seat</b> to an elderly man and <b>held on tight</b> to the pole.",
       note: "Traffic is <i>heavy</i>, not “big”. A bend in the road is <i>sharp</i>." },
@@ -25,7 +25,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     { title: "Sickness, injuries and the clinic", words: ["a high fever","a runny nose","a sore throat","a hacking cough","a splitting headache","a stomach ache","a sprained ankle","a grazed knee","a deep cut","a nasty bruise","a bad fall","feel faint","feel queasy","take medicine","see a doctor","make a full recovery","on the mend","run a temperature","a sharp pain","a dull ache","swollen and red","bandaged up","a throbbing finger","stay in bed"],
       ex: "I woke up with <b>a sore throat</b> and <b>a splitting headache</b>, so Mum took me to <b>see a doctor</b>.",
       note: "A <i>sharp</i> pain is sudden and stabbing; a <i>dull</i> ache is low and steady. Choose the one that fits." },
-    { title: "Sport and games", words: ["score a goal","miss a shot","win the match","lose the game","a penalty kick","the winning goal","the final whistle","a cheering crowd","a fair game","a sore loser","a clean tackle","a powerful kick","a personal best","a close match","home ground","the starting line","the finishing line","hold the lead","fall behind","catch up","break into a sprint","pull a muscle","out of breath","take a shot"],
+    { title: "Sport and games", words: ["score a goal","miss a shot","win the match","lose the game","a penalty kick","the winning goal","the final whistle","a cheering crowd","fair play","a sore loser","a clean tackle","a powerful kick","a personal best","a close match","home ground","the starting line","the finishing line","hold the lead","fall behind","catch up","break into a sprint","pull a muscle","out of breath","take a shot"],
       ex: "Seconds before <b>the final whistle</b>, Priya <b>broke into a sprint</b> and scored <b>the winning goal</b>.",
       note: "We <i>win</i> a match but <i>beat</i> a team. You can’t “win” a person." }
   ]},
@@ -40,7 +40,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
       ex: "In the silent hall, all I could hear was <b>the ticking of a clock</b> and <b>the whirr of a fan</b>.",
       note: "Pattern: the + sound word + of + thing. It turns a plain noun into a sound." },
     { title: "Light, colour and the sky", words: ["a fiery sunset","a pale moon","a full moon","a crescent moon","a starry night","a cloudless sky","an overcast sky","a grey morning","a golden glow","bright colours","dull colours","a splash of colour","a riot of colour","pastel shades","a faded photo","glossy paint","a sparkling sea","a shimmering pool","neon signs","flashing lights","a harsh glare","the setting sun","the midday sun"],
-      ex: "From the top of our HDB block, we watched <b>a fiery sunset</b> sink behind the cranes at the port.",
+      ex: "From the top of our HDB block, we watched <b>a fiery sunset</b> spread across the sky above the port.",
       note: "“A riot of colour” means many bright colours together, like a garden in full bloom." }
   ]},
   { type: "chips", title: "New word pairs: story moments", groups: [
@@ -61,11 +61,11 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     ["a very bad headache","a splitting headache"],
     ["lots of cars","heavy traffic, a traffic jam"],
     ["very quiet","eerily quiet, completely silent"],
-    ["ran fast suddenly","broke into a sprint"],
+    ["suddenly ran fast","broke into a sprint"],
     ["the sound of the clock","the ticking of a clock"],
     ["very colourful","a riot of colour"],
     ["a nice sunset","a fiery sunset"],
-    ["wet hands from fear","sweaty palms, clammy hands"],
+    ["wet, nervous hands","sweaty palms, clammy hands"],
     ["a good idea","a bright idea"],
     ["a big change","a turning point"],
     ["very happy","absolutely delighted"],
@@ -76,7 +76,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
 
 { id: "en-idioms2", blocks: [
   { type: "idioms", title: "Brand-new idioms and proverbs", items: [
-    { w: "on pins and needles", py: "", m: "anxious and unable to relax while waiting", ex: "I was on pins and needles until Mum came out of the clinic with a smile.", cat: "Feelings" },
+    { w: "a nervous wreck", py: "", m: "someone who is extremely nervous and worried", ex: "I was a nervous wreck until Mum came out of the clinic with a smile.", cat: "Feelings" },
     { w: "down in the mouth", py: "", m: "unhappy and gloomy", ex: "Jun Hao looked down in the mouth after his team lost the final.", cat: "Feelings" },
     { w: "in a flap", py: "", m: "worried and rushing about in a confused way", ex: "Dad was in a flap because he couldn’t find the car keys.", cat: "Feelings" },
     { w: "as pleased as Punch", py: "", m: "very pleased", ex: "My little brother was as pleased as Punch with his new scooter.", cat: "Feelings" },
@@ -94,7 +94,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     { w: "a red-letter day", py: "", m: "a very special, happy day to remember", ex: "The day our baby sister came home was a red-letter day for our family.", cat: "Colours" },
     { w: "in the pink", py: "", m: "in very good health", ex: "After a week of rest, Grandpa was back in the pink.", cat: "Colours" },
     { w: "a white elephant", py: "", m: "something that costs a lot but is not useful", ex: "The huge exercise machine became a white elephant in the corner of the living room.", cat: "Colours" },
-    { w: "black and blue", py: "", m: "covered in bruises", ex: "After falling off my bicycle, my knees were black and blue.", cat: "Colours" },
+    { w: "black and blue", py: "", m: "covered in bruises", ex: "After I fell off my bicycle, my knees were black and blue.", cat: "Colours" },
     { w: "in black and white", py: "", m: "written down clearly", ex: "The rule is there in black and white: no running by the pool.", cat: "Colours" },
     { w: "roll out the red carpet", py: "", m: "give someone a special, grand welcome", ex: "Our class rolled out the red carpet for the visiting pupils from Japan.", cat: "Colours" },
     { w: "green fingers", py: "", m: "a talent for making plants grow", ex: "Grandma has green fingers; her corridor plants are always in bloom.", cat: "Colours" },
@@ -128,7 +128,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     { w: "keep at it", py: "", m: "keep trying and do not stop", ex: "The piano piece was hard, but I kept at it every evening.", cat: "Effort" },
     { w: "a labour of love", py: "", m: "hard work you do because you enjoy it or care about it", ex: "Making the photo album for Mum’s birthday was a labour of love.", cat: "Effort" },
     { w: "make the grade", py: "", m: "reach the standard needed", ex: "I trained hard all year and finally made the grade for the school team.", cat: "Effort" },
-    { w: "go the distance", py: "", m: "keep going until the end", ex: "Nobody thought I could go the distance in the 2.4 km run, but I did.", cat: "Effort" },
+    { w: "go the distance", py: "", m: "keep going until the end", ex: "Nobody thought I could go the distance in the 1.6 km run, but I did.", cat: "Effort" },
     { w: "on a roll", py: "", m: "having a run of successes", ex: "After three correct answers in a row, our team was on a roll.", cat: "Effort" },
     { w: "up to scratch", py: "", m: "good enough", ex: "My first drawing wasn’t up to scratch, so I tried again.", cat: "Effort" },
     { w: "a dry run", py: "", m: "a practice before the real thing", ex: "We did a dry run of our skit in the hall the day before Children’s Day.", cat: "Effort" },
@@ -137,7 +137,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     { w: "raise the bar", py: "", m: "set a higher standard", ex: "Mei Ling’s amazing science project raised the bar for everyone.", cat: "Effort" },
     { w: "the sky’s the limit", py: "", m: "there is no limit to what you can achieve", ex: "Coach said that if we kept training, the sky’s the limit.", cat: "Effort" },
     { w: "bounce back", py: "", m: "recover quickly after a setback", ex: "She lost the first set but bounced back to win the match.", cat: "Effort" },
-    { w: "dig myself into a hole", py: "", m: "make a bad situation worse for myself", ex: "Every excuse I made only dug me deeper into a hole.", cat: "Trouble" },
+    { w: "dig myself into a hole", py: "", m: "make a bad situation worse for myself", ex: "With every excuse I made, I dug myself deeper into a hole.", cat: "Trouble" },
     { w: "in a tight spot", py: "", m: "in a difficult situation", ex: "When I forgot my EZ-Link card, I was in a tight spot until Aisha lent me hers.", cat: "Trouble" },
     { w: "a sticky situation", py: "", m: "an awkward or difficult situation", ex: "Two friends invited me to their parties on the same day. It was a sticky situation.", cat: "Trouble" },
     { w: "come to a head", py: "", m: "reach a point where something must be dealt with", ex: "The quarrel over the class computer came to a head during recess.", cat: "Trouble" },
@@ -156,7 +156,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     { w: "clear the air", py: "", m: "talk openly to end a misunderstanding", ex: "We sat at the void deck and talked to clear the air.", cat: "Friends" },
     { w: "hit it off", py: "", m: "like each other straight away", ex: "Our dogs hit it off the moment they met.", cat: "Friends" },
     { w: "stab someone in the back", py: "", m: "betray someone who trusts you", ex: "I felt stabbed in the back when my friend told everyone my secret.", cat: "Friends" },
-    { w: "two-faced", py: "", m: "nice to your face but unkind behind your back", ex: "She was friendly in class but two-faced on the group chat.", cat: "Friends" },
+    { w: "two-faced", py: "", m: "nice to your face but unkind behind your back", ex: "She smiled at me in class but said unkind things about me in the group chat. She was so two-faced.", cat: "Friends" },
     { w: "a bone to pick", py: "", m: "a complaint you want to talk about", ex: "I have a bone to pick with you: you borrowed my eraser and never returned it!", cat: "Friends" },
     { w: "come clean", py: "", m: "tell the truth about something you hid", ex: "In the end, I came clean and told Mum I had broken the vase.", cat: "Honesty" },
     { w: "a white lie", py: "", m: "a small lie told to be kind", ex: "I told a white lie and said I loved the jumper Auntie knitted.", cat: "Honesty" },
@@ -198,7 +198,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     { w: "go with the flow", py: "", m: "relax and accept what happens", ex: "When the plans changed, we decided to go with the flow.", cat: "Places and nature" },
     { w: "a breath of fresh air", py: "", m: "someone or something new and pleasantly different", ex: "Our new music teacher was a breath of fresh air.", cat: "Places and nature" },
     { w: "out of the woods", py: "", m: "out of danger or difficulty", ex: "Grandpa is better, but the doctor says he isn’t out of the woods yet.", cat: "Places and nature" },
-    { w: "can’t see the wood for the trees", py: "", m: "so busy with small details that you miss the main point", ex: "I spent so long colouring the title that I couldn’t see the wood for the trees and forgot the experiment.", cat: "Places and nature" },
+    { w: "can’t see the wood for the trees", py: "", m: "so busy with small details that you miss the main point", ex: "I spent so long colouring the title of my science report that I forgot to write about the experiment. I couldn’t see the wood for the trees!", cat: "Places and nature" },
     { w: "nip it in the bud", py: "", m: "stop a problem early before it grows", ex: "Mrs Tan noticed the teasing and nipped it in the bud.", cat: "Places and nature" },
     { w: "not a bed of roses", py: "", m: "not easy or comfortable", ex: "Being class monitor is not a bed of roses.", cat: "Places and nature" },
     { w: "a needle in a haystack", py: "", m: "something almost impossible to find", ex: "Looking for my earring on the beach was like looking for a needle in a haystack.", cat: "Places and nature" },
@@ -223,7 +223,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     { w: "a pain in the neck", py: "", m: "someone or something annoying", ex: "The broken lift was a real pain in the neck.", cat: "Body" },
     { w: "head over heels", py: "", m: "tumbling over and over", ex: "I tripped on the step and went head over heels into the bushes.", cat: "Body" },
     { w: "keep my head above water", py: "", m: "just about manage when things are hard", ex: "With three tests in one week, I was struggling to keep my head above water.", cat: "Body" },
-    { w: "rub someone up the wrong way", py: "", m: "annoy someone without meaning to", ex: "His bossy tone rubbed everyone up the wrong way.", cat: "Body" },
+    { w: "rub someone up the wrong way", py: "", m: "annoy someone, often without meaning to", ex: "His bossy tone rubbed everyone up the wrong way.", cat: "Body" },
     { w: "on the tip of my tongue", py: "", m: "almost remembered but not quite", ex: "Her name is on the tip of my tongue!", cat: "Body" },
     { w: "bite my tongue", py: "", m: "stop myself from saying something", ex: "I wanted to argue, but I bit my tongue.", cat: "Body" },
     { w: "a slip of the tongue", py: "", m: "a mistake in what you say", ex: "I called my teacher “Mum”. It was just a slip of the tongue!", cat: "Body" },
@@ -254,7 +254,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     { w: "splash out", py: "", m: "spend a lot of money on something special", ex: "For Grandma’s eightieth birthday, we splashed out on a big dinner.", cat: "Money" },
     { w: "born with a silver spoon in his mouth", py: "", m: "born into a rich family", ex: "He was born with a silver spoon in his mouth, but he still worked hard.", cat: "Money" },
     { w: "cost a pretty penny", py: "", m: "cost a lot of money", ex: "Those concert tickets must have cost a pretty penny.", cat: "Money" },
-    { w: "for a song", py: "", m: "very cheaply", ex: "Mum bought the old rattan chair for a song at a garage sale.", cat: "Money" },
+    { w: "for a song", py: "", m: "very cheaply", ex: "Mum bought the old rattan chair for a song at a flea market.", cat: "Money" },
     { w: "out of the blue", py: "", m: "suddenly and unexpectedly", ex: "Out of the blue, my old friend from Primary 1 sent me a message.", cat: "Surprises" },
     { w: "you could have knocked me down with a feather", py: "", m: "I was extremely surprised", ex: "When they called my name for the prize, you could have knocked me down with a feather.", cat: "Surprises" },
     { w: "my jaw dropped", py: "", m: "I was very surprised", ex: "My jaw dropped when I saw the size of the durian.", cat: "Surprises" },
@@ -283,7 +283,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     { w: "First come, first served.", py: "", m: "people who arrive first get served first", ex: "The free ice cream was first come, first served, so we ran.", cat: "Proverbs" },
     { w: "The more, the merrier.", py: "", m: "the more people join in, the more fun it is", ex: "“Can my cousin come too?” “Of course, the more, the merrier!”", cat: "Proverbs" },
     { w: "Kindness costs nothing.", py: "", m: "being kind is free and always worth it", ex: "Holding the lift door for a neighbour takes a second. Kindness costs nothing.", cat: "Proverbs" },
-    { w: "Learn to walk before you run.", py: "", m: "master the basics before trying hard things", ex: "I wanted to dive off the high board, but Coach said to learn to walk before you run.", cat: "Proverbs" },
+    { w: "Learn to walk before you run.", py: "", m: "master the basics before trying hard things", ex: "I wanted to dive off the high board, but Coach said I had to learn to walk before I could run.", cat: "Proverbs" },
     { w: "A journey of a thousand miles begins with a single step.", py: "", m: "every big task starts with one small action", ex: "My first lap of the pool was slow, but a journey of a thousand miles begins with a single step.", cat: "Proverbs" },
     { w: "Pride comes before a fall.", py: "", m: "if you are too proud, you may soon fail", ex: "He laughed at everyone, then tripped at the finishing line. Pride comes before a fall.", cat: "Proverbs" },
     { w: "The best things in life are free.", py: "", m: "the most precious things, like love and friendship, cost nothing", ex: "Watching the sunset with Grandpa reminded me that the best things in life are free.", cat: "Proverbs" },
@@ -296,14 +296,14 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
       "Out of the blue, a letter arrived with my name on it.",
       "Our new flat was a stone’s throw away from the beach, and I couldn’t wait to explore.",
       "Mum always says the best things in life are free. That Saturday, I found out she was right.",
-      "I had been on pins and needles all week, waiting for Sports Day.",
-      "Rise and shine! Dad’s voice boomed down the corridor.",
+      "I had been a nervous wreck all week, waiting for Sports Day.",
+      "“Rise and shine!” Dad’s voice boomed down the corridor.",
       "Aisha and I had been as thick as thieves since Primary 1.",
       "The clock was ticking, and our project was nowhere near finished.",
       "I am a scatterbrain, and that Monday proved it.",
       "Nobody expected the shy new girl to turn the tables on the class bully.",
       "My grandmother has green fingers, and her corridor garden is the pride of our block.",
-      "It was meant to be an ordinary trip to the market, but the plot was about to thicken.",
+      "It was meant to be an ordinary trip to the market. Then my wallet vanished, and the plot thickened.",
       "Lo and behold, there was a puppy sitting at our front door.",
       "Everyone said the hike would be as easy as pie. Everyone was wrong.",
       "I have a bee in my bonnet about one thing: litter.",
@@ -317,7 +317,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
   ]},
   { type: "chips", title: "New golden lines: idioms in the middle of the action", groups: [
     { title: "When things start to go wrong", words: [
-      "Every excuse I made only dug me deeper into a hole.",
+      "With every excuse I made, I dug myself deeper into a hole.",
       "The rain threw a spanner in the works, and our picnic was off.",
       "I cut corners on my model, and one wheel fell off on the way to school.",
       "From the way they glared at each other, I could tell a storm was brewing.",
@@ -340,7 +340,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
       "Standing alone in the middle of the court, I felt like a sitting duck.",
       "I had a frog in my throat, so my first words came out as a croak.",
       "With three tests that week, I was struggling to keep my head above water.",
-      "I kept my eyes on the door, on the edge of my seat."],
+      "I sat on the edge of my seat, my eyes fixed on the door."],
       ex: "My name was called. <b>My mind went blank the moment I stood up</b>, so I took a slow breath and looked at my notes." },
     { title: "Surprises and big moments", words: [
       "My jaw dropped when I saw the size of the cake.",
@@ -358,7 +358,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
   { type: "chips", title: "New golden lines: idioms for friends, quarrels and making up", groups: [
     { title: "Friends falling out and making up", words: [
       "I felt stabbed in the back when she told everyone my secret.",
-      "He was friendly in class but two-faced in the group chat.",
+      "He smiled at me in class, then said unkind things about me in the group chat. He was so two-faced.",
       "“I’ve got a bone to pick with you,” Priya said, folding her arms.",
       "We sat at the void deck after school and talked to clear the air.",
       "I slipped a note into her bag to patch things up.",
@@ -379,7 +379,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
       "I had promised to help, and I kept my word.",
       "It was only a slip of the tongue, but it hurt her feelings.",
       "I told a white lie about the jumper, and it felt wrong all evening."],
-      ex: "I stared at the broken plate for a long time. <b>In the end, I came clean</b> and told Mum the truth." }
+      ex: "I stared at the broken beaker for a long time. <b>In the end, I came clean and told Mr Lim the truth.</b>" }
   ]},
   { type: "chips", title: "New golden lines: endings that use a proverb or idiom", groups: [
     { title: "Closing lines and lessons learnt", words: [
@@ -423,12 +423,12 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
   ]},
   { type: "chips", title: "New idiom lines: stretch sentences for upper primary", groups: [
     { title: "Idioms woven into description", words: [
-      "The hawker centre was packed like sardines, every table crowded with families and steaming plates.",
+      "At the hawker centre, we were packed like sardines, every table crowded with families and steaming plates.",
       "We found a quiet beach off the beaten track, where the only footprints were ours.",
       "The old shophouse had stood there for donkey’s years, its shutters faded to the colour of weak tea.",
       "Our new music teacher was a breath of fresh air, humming as she walked into class.",
       "Grandpa, a tower of strength through all of it, held Grandma’s hand without a word.",
-      "The huge exercise machine sat in the corner like a white elephant, draped with drying towels.",
+      "The huge exercise machine had become a white elephant, standing in the corner draped with drying towels.",
       "Mrs Tan noticed the teasing early and nipped it in the bud with one quiet word.",
       "Aisha seemed to have a finger in every pie, rushing from choir to art club with paint on her sleeve.",
       "The doctor said Grandpa was improving but not out of the woods yet, and the room went still.",
@@ -437,7 +437,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
       note: "P4 and up. Here the idiom sits inside a longer sentence that also paints a picture. One idiom per sentence is plenty." }
   ]},
   { type: "table", title: "New plain → idiom upgrades", head: ["Plain","With an idiom"], weakCol: 0, rows: [
-    ["I was very nervous while waiting.","I was on pins and needles."],
+    ["I was very nervous while waiting.","I was a nervous wreck."],
     ["I couldn’t remember anything.","My mind went blank."],
     ["It was very close to my home.","It was a stone’s throw away."],
     ["I told the truth at last.","I came clean."],

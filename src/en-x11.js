@@ -27,12 +27,12 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     ]},
     { type: "chips", title: "Small creatures you haven’t met yet: frogs, lizards and more", groups: [
       { title: "Frogs, lizards and other small animals",
-        words: ["tadpole", "toad", "gecko", "house lizard", "skink", "chameleon", "tortoise", "terrapin", "python", "garden snake", "squirrel", "fruit bat", "slug", "flying lizard", "frogspawn", "croaked", "ribbited", "flicked its tongue", "basked on a warm rock", "slithered", "darted up the wall", "froze, then vanished", "a gecko clung upside down to the ceiling", "a squirrel scampered along the fence", "the toad squatted on the step like a lump of mud", "tadpoles wriggled in the drain", "a skink flashed into the long grass", "a tortoise pulled its head into its shell"],
+        words: ["tadpole", "toad", "gecko", "house lizard", "skink", "chameleon", "tortoise", "terrapin", "python", "garden snake", "squirrel", "fruit bat", "slug", "flying lizard", "frogspawn", "croaked", "hopped", "flicked its tongue", "basked on a warm rock", "slithered", "darted up the wall", "froze, then vanished", "a gecko clung upside down to the ceiling", "a squirrel scampered along the fence", "the toad squatted on the step like a lump of mud", "tadpoles wriggled in the drain", "a skink flashed into the long grass", "a tortoise pulled its head into its shell"],
         ex: "A squirrel scampered along the fence, stopped to stare at me, and then vanished into the rain tree.",
         note: "In Singapore, a house lizard is often called a cicak. Snakes slither, geckos dart, squirrels scamper." },
       { title: "Nature at night: sounds and sights after dark",
         words: ["croaking", "chirping crickets", "the whirr of wings", "hooting", "a frog chorus", "the hum of insects", "the plop of a frog into water", "the flutter of bat wings", "glowing eyes", "a moth bumped against the lamp", "frogs croaked in the drain after the rain", "a gecko chirped from behind the curtains", "an owl hooted somewhere in the dark", "the night was alive with sounds", "a bat swooped past the street lamp", "the grass was wet with night dew", "something rustled in the bushes", "the trees were black shapes against the sky", "the air was cool and smelt of leaves", "a torch beam picked out a pair of shining eyes", "the forest sounded louder at night than in the day"],
-        ex: "After the rain, frogs croaked in the drain so loudly that I could hardly hear the television.",
+        ex: "Frogs croaked in the drain after the rain, so loudly that I could hardly hear the television.",
         note: "Night walks are popular at the zoo and in nature parks. Use sounds more than sights, because it is dark." }
     ]},
     { type: "chips", title: "Nature close to home: corridor plants, gardens and fruit trees", groups: [
@@ -66,7 +66,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
         note: "P4 and up. End with one quiet image instead of saying “It was a fun day.”" },
       { title: "Make nature come alive: personification",
         words: ["the trees whispered", "the river chattered over the stones", "the sea sighed against the shore", "the wind tugged at my sleeve", "the hill seemed to stretch further with every step", "the sun peered through the clouds", "the waves reached for our feet", "the old tree watched over the playground", "the rain tapped on the window, asking to come in", "the flowers turned their faces to the sun", "the clouds hurried away", "the forest held its breath", "the stream giggled down the slope", "the sky frowned", "the moon followed our car all the way home"],
-        ex: "Halfway up the trail, the forest seemed to hold its breath, and I could hear only my own footsteps.",
+        ex: "Halfway up the trail, the forest held its breath, and I could hear only my own footsteps.",
         note: "P4 and up. Personification gives nature human actions. Use only one in a paragraph, or it starts to feel silly." }
     ]},
     { type: "table", title: "Plain → vivid: more nature sentences", head: ["Plain", "Vivid"], weakCol: 0, rows: [
@@ -93,7 +93,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     ]},
     { type: "chips", title: "New school places: the classroom and the hall", groups: [
       { title: "Classroom",
-        words: ["the whiteboard", "rows of desks", "the teacher’s table", "a class timetable", "a reading corner", "cubby holes", "the ceiling fans", "the visualiser", "a pile of worksheets", "a jar of markers", "the class pet fish", "the duty roster", "squeaky chairs", "chalk dust on the ledge", "the whirr of the fans", "pencils scratching on paper", "a hand shot up at the back", "the room went quiet when the teacher walked in", "paper aeroplanes hidden in a drawer", "sunlight fell across my desk", "the bin overflowed with eraser crumbs", "our artwork was pinned along the wall", "the clock ticked louder during the test", "we pushed the desks into groups"],
+        words: ["the whiteboard", "rows of desks", "the teacher’s table", "a class timetable", "a reading corner", "cubby holes", "the ceiling fans", "the visualiser", "a pile of worksheets", "a jar of markers", "the class pet fish", "the duty roster", "squeaky chairs", "the smell of whiteboard markers", "the whirr of the fans", "pencils scratching on paper", "a hand shot up at the back", "the room went quiet when the teacher walked in", "paper aeroplanes hidden in a drawer", "sunlight fell across my desk", "the bin overflowed with eraser crumbs", "our artwork was pinned along the wall", "the clock ticked louder during the test", "we pushed the desks into groups"],
         ex: "The room went quiet when the teacher walked in, and all I could hear was the whirr of the fans.",
         note: "Pick small, true details from your own classroom. They make the scene feel real." },
       { title: "School hall and assembly",
@@ -103,7 +103,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     ]},
     { type: "chips", title: "New neighbourhood places: hawker centre, wet market and estate", groups: [
       { title: "Hawker centre",
-        words: ["rows of stalls", "a tray-return station", "a packet of tissue chope-ing a seat", "ceiling fans whirring overhead", "a stall with a long queue", "the drinks uncle", "a plate of chicken rice", "a bowl of steaming laksa", "a tub of chilli sauce", "the clang of a wok", "flames leapt from the wok", "the hiss of oil", "the smell of satay smoke", "plastic bowls and steel spoons", "the table was still sticky", "a sea of diners at lunchtime", "hawkers shouting out orders", "a queue number on a buzzer", "stray cats waiting for scraps", "the stall’s signboard had faded in the sun", "every table was taken", "a cleaner wiping tables with a damp cloth", "a fresh lime juice sweating on the table", "the whole family squeezed round one small table"],
+        words: ["rows of stalls", "a tray-return station", "a packet of tissues to “chope” a seat", "ceiling fans whirring overhead", "a stall with a long queue", "the drinks uncle", "a plate of chicken rice", "a bowl of steaming laksa", "a tub of chilli sauce", "the clang of a wok", "flames leapt from the wok", "the hiss of oil", "the smell of satay smoke", "plastic bowls and steel spoons", "the table was still sticky", "a sea of diners at lunchtime", "hawkers shouting out orders", "a buzzer that beeped when our food was ready", "stray cats waiting for scraps", "the stall’s signboard had faded in the sun", "every table was taken", "a cleaner wiping tables with a damp cloth", "a fresh lime juice sweating on the table", "the whole family squeezed round one small table"],
         ex: "Flames leapt from the wok, and the smell of garlic drifted all the way to our table.",
         note: "Chope is Singlish for saving a seat. Use it in dialogue or with quotation marks in narration." },
       { title: "Wet market",

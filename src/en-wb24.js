@@ -49,8 +49,8 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
         ex: "After a short wait, the nurse called my name." },
       { title: "A long time", words: ["for hours", "for ages", "the whole afternoon", "all day long", "for what felt like hours", "for the longest ten minutes of my life", "until it was nearly dark", "from morning till night", "hour after hour", "for the entire journey", "until my legs ached", "long into the night"],
         ex: "We searched the void deck for the whole afternoon, but there was no sign of the kitten." },
-      { title: "Measuring with things you know", note: "A clever trick: measure time with something the reader can picture.", words: ["in the time it takes to tie a shoelace", "before the ice in my drink had melted", "by the time the rice was cooked", "before the advertisement ended", "in the time it took to sing Happy Birthday", "before the MRT doors closed", "before the traffic light turned green", "by the time my milo had gone cold", "in less time than it takes to brush your teeth", "before the kettle had boiled"],
-        ex: "By the time my milo had gone cold, I had finally finished the last maths sum." }
+      { title: "Measuring with things you know", note: "A clever trick: measure time with something the reader can picture.", words: ["in the time it takes to tie a shoelace", "before the ice in my drink had melted", "by the time the rice was cooked", "before the advertisement ended", "in the time it took to sing Happy Birthday", "before the MRT doors closed", "before the traffic light turned green", "by the time my Milo had gone cold", "in less time than it takes to brush your teeth", "before the kettle had boiled"],
+        ex: "By the time my Milo had gone cold, I had finally finished the last maths sum." }
     ] },
 
     { type: "chips", title: "Suddenly!", groups: [
@@ -73,9 +73,9 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
 
     { type: "chips", title: "Hurrying and dawdling", groups: [
       { title: "Hurry words", note: "Easy – P1/P2", words: ["hurry", "rush", "run", "dash", "race", "zoom", "quick", "fast", "faster", "hurried", "rushed", "dashed"],
-        ex: "I dashed down the stairs because I could hear the ice cream van." },
-      { title: "In a hurry", words: ["gobbled my breakfast", "threw on my uniform", "stuffed my books into my bag", "took the stairs two at a time", "half-ran, half-walked to the bus stop", "tied my laces on the way out", "grabbed my water bottle and fled", "scribbled the last answer", "bolted out of the lift", "scrambled to find my shoes", "squeezed in just as the doors closed", "waved goodbye without even turning round"],
-        ex: "I took the stairs two at a time and squeezed into the lift just as the doors closed." },
+        ex: "I dashed down the stairs because I could hear the ice cream uncle’s bell." },
+      { title: "In a hurry", words: ["gobbled my breakfast", "threw on my uniform", "stuffed my books into my bag", "took the stairs two at a time", "half-ran, half-walked to the bus stop", "tied my laces on the way out", "grabbed my water bottle and ran", "scribbled the last answer", "bolted out of the lift", "scrambled to find my shoes", "squeezed in just as the doors closed", "waved goodbye without even turning round"],
+        ex: "I took the stairs two at a time and squeezed onto the bus just as the doors closed." },
       { title: "Taking it slow", words: ["dawdled", "lingered", "strolled", "wandered", "dragged my feet", "lagged behind", "took my time", "ambled along", "stopped to look at every shop window", "crawled out of bed", "chewed each mouthful slowly", "trailed after the others"],
         ex: "My little brother dragged his feet all the way to the dentist." },
       { title: "Sharper time adverbs", note: "P4 and up", words: ["instantly", "promptly", "swiftly", "abruptly", "briefly", "temporarily", "momentarily", "simultaneously", "punctually", "hastily", "leisurely", "unhurriedly"],
@@ -85,7 +85,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
     { type: "chips", title: "First, next, then: putting things in order", groups: [
       { title: "Order words", note: "Easy – P1/P2", words: ["first", "next", "then", "after that", "later", "soon", "afterwards", "last", "lastly", "in the end", "before", "after"],
         ex: "First, we washed our hands. Next, we rolled the dough. After that, Grandma let me press in the filling." },
-      { title: "Before…", words: ["before I could say a word", "just before the bell", "the night before", "a few minutes earlier", "earlier that day", "moments before", "before we left home", "even before the lesson started", "before long", "until then"],
+      { title: "Before…", words: ["before I could say a word", "just before the bell", "the night before", "a few minutes earlier", "earlier that day", "moments before", "before we left home", "even before the lesson started", "the week before", "until then"],
         ex: "Earlier that day, I had promised Mei Ling I would not tell anyone her secret." },
       { title: "After…", words: ["after school", "soon after that", "moments later", "later on", "the next morning", "later that evening", "once we reached home", "as soon as the bell rang", "the minute I got home", "no sooner had we arrived than", "from then on", "ever since that day"],
         ex: "The minute I got home, I kicked off my shoes and told Mum everything." },
@@ -105,7 +105,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
         ex: "I waited and waited, but it was still not my turn." },
       { title: "What you do while you wait", words: ["tapped my foot", "drummed my fingers on the table", "swung my legs under the chair", "kept glancing at the door", "checked the clock every few seconds", "read the same poster over and over", "shifted from one foot to the other", "peeled the label off my water bottle", "counted the cars passing by", "stared at the number on the screen", "chewed the end of my pencil", "craned my neck to see the front"],
         ex: "I swung my legs under the chair and kept glancing at the door of the examination room." },
-      { title: "Places where children wait in Singapore", words: ["in the queue at the chicken rice stall", "at the bus stop in the rain", "outside the principal’s office", "in the clinic waiting room", "on the platform as the train was delayed", "at the school gate after CCA", "outside the toilet at the cinema", "in the long line for the roller coaster", "at the arrival hall at Changi Airport", "on the bench outside the exam hall"],
+      { title: "Places where children wait in Singapore", words: ["in the queue at the chicken rice stall", "at the bus stop in the rain", "outside the principal’s office", "in the clinic waiting room", "on the MRT platform when the train was late", "at the school gate after CCA", "outside the toilet at the cinema", "in the long line for the roller coaster", "at the arrival hall at Changi Airport", "on the bench outside the exam hall"],
         ex: "We waited at the arrival hall at Changi Airport, holding a sign with Grandma’s name on it." },
       { title: "When the wait finally ends", words: ["At long last,", "The waiting was over.", "After what seemed like an hour,", "Just when I was about to give up,", "When my name was finally called,", "The wait was worth it.", "At last the doors slid open.", "My number blinked on the screen.", "The moment had come.", "It was finally my turn."],
         ex: "Just when I was about to give up, a tiny figure appeared at the arrival gate, waving both hands." }
@@ -117,13 +117,13 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
       { title: "Time running out", words: ["only five minutes left", "time was running out", "the clock was against us", "with ten minutes to go", "the deadline was tomorrow morning", "there was not a second to lose", "the countdown began", "the last few seconds ticked away", "we were running out of time", "half the time had already gone", "the minutes were slipping away", "we had to finish before the bell"],
         ex: "With ten minutes to go, our model bridge still had no roof and one wobbly leg." },
       { title: "What people say about time", note: "Keep dialogue short and natural.", words: ["“Hurry up, we’re going to be late!”", "“Five more minutes, Mum, please?”", "“Wait for me!”", "“Is it time yet?”", "“Just a sec, I’m coming!”", "“Why didn’t anyone wake me?”", "“We’ve still got loads of time.”", "“Quick, the bus is here!”", "“Slow down, there’s no rush.”", "“It’s almost midnight. Bed, now.”"],
-        ex: "“Why didn’t anyone wake me?” I wailed, hopping into my shorts with one leg." }
+        ex: "“Why didn’t anyone wake me?” I wailed, hopping on one leg as I pulled on my shorts." }
     ] },
 
     { type: "chips", title: "Slow motion: stretching the big moment", groups: [
       { title: "Slow-motion signals", words: ["Everything seemed to slow down.", "It felt as if time had stopped.", "For a moment, nobody moved.", "The world went quiet.", "I could hear my own heartbeat.", "It happened in a few seconds, but it felt much longer.", "I watched, frozen.", "The seconds stretched out.", "For one long second,", "The room held its breath."],
         ex: "For one long second, the ball hung in the air above the goal." },
-      { title: "Tiny details that stretch a moment", note: "Add one sense at a time: what you saw, heard, felt.", words: ["the vase wobbled once, twice", "a single drop of sweat rolled down my nose", "the marble rolled closer and closer to the edge", "his fingers slipped off the bar one by one", "the paper fluttered towards the drain", "my legs would not move", "I opened my mouth, but no sound came out", "the glass tipped, then toppled", "I saw the bicycle wobble before it fell", "the cup spun as it fell, spilling milo in a brown arc", "I stretched out my hand, but it was too late", "the ball bounced once on the rim and hung there"],
+      { title: "Tiny details that stretch a moment", note: "Add one sense at a time: what you saw, heard, felt.", words: ["the vase wobbled once, twice", "a single drop of sweat rolled down my nose", "the marble rolled closer and closer to the edge", "his fingers slipped off the bar one by one", "the paper fluttered towards the drain", "my legs would not move", "I opened my mouth, but no sound came out", "the glass tipped, then toppled", "I saw the bicycle wobble before it fell", "the cup spun as it fell, spilling Milo in a brown arc", "I stretched out my hand, but it was too late", "the ball bounced once on the rim and hung there"],
         ex: "The vase wobbled once, twice, and then tipped over the edge of the shelf." },
       { title: "Short-short-long", note: "P4 and up. Short sentences make the reader hold their breath. A longer one lets it out.", words: ["It slipped. It fell. It shattered into a hundred pieces across the kitchen floor.", "I ran. I reached. I caught it just above the floor.", "Silence. Then a cheer that shook the whole hall.", "One step. Two steps. Then the board creaked under my foot.", "Three. Two. One. The whistle blew and the whole team surged forward.", "I aimed. I swung. The shuttlecock sailed over the net and dropped neatly inside the line."],
         ex: "It slipped. It fell. It shattered into a hundred pieces across the kitchen floor." }
@@ -139,7 +139,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
     { type: "chips", title: "When time drags", groups: [
       { title: "Slow-time words", note: "Easy – P1/P2", words: ["it took forever", "so slow", "so boring", "on and on", "it never ended", "it felt like a whole day", "still not done", "it went on for ages", "it was a long, long wait"],
         ex: "The car ride to Malacca took forever." },
-      { title: "Slow-time sentences", words: ["The hands of the clock seemed glued in place.", "Each minute stretched like chewing gum.", "The last lesson on Friday crawled along.", "I yawned so many times that my jaw ached.", "The traffic on the expressway barely moved.", "Every second felt like a minute.", "The speech went on, and on, and on.", "I looked at the clock. Only five minutes had gone by.", "The afternoon seemed to have no end.", "By the third hour of the drive, I had counted every red car on the road."],
+      { title: "Slow-time sentences", words: ["The hands of the clock seemed glued in place.", "Each minute stretched like a rubber band.", "The last lesson on Friday crawled along.", "I yawned so many times that my jaw ached.", "The traffic on the expressway barely moved.", "Every second felt like a minute.", "The speech went on, and on, and on.", "I looked at the clock. Only five minutes had gone by.", "The afternoon seemed to have no end.", "By the third hour of the drive, I had counted every red car on the road."],
         ex: "The speech went on, and on, and on, and the boy beside me started to snore softly." }
     ] },
 
@@ -163,18 +163,18 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
 
     { type: "chips", title: "How often?", groups: [
       { title: "Frequency words", note: "Easy – P1/P2", words: ["always", "usually", "often", "sometimes", "rarely", "never", "every day", "every week", "once", "twice", "again", "again and again"],
-        ex: "Every Sunday, we have dim sum with Grandpa and Grandma." },
+        ex: "Every week, we have dim sum with Grandpa and Grandma." },
       { title: "Routine phrases", words: ["every Saturday without fail", "as usual", "like every other morning", "every single morning", "every now and then", "from time to time", "twice a week", "on most afternoons", "almost every night", "whenever it rained", "each time I visited", "for the hundredth time"],
         ex: "Like every other morning, Grandpa was already at the void deck reading his Chinese newspaper." },
       { title: "When routine breaks", note: "A great way to start a story: show the normal day, then the change.", words: ["But that morning was different.", "For once, Dad was late.", "It was the first time ever that", "Unlike other days,", "That day, nothing went as planned.", "Something felt wrong the moment I woke up.", "Usually Mum was there to meet me, but not today."],
-        ex: "Usually Mum was there to meet me at the gate, but not today." }
+        ex: "Usually Mum was there to meet me, but not today. I stood at the gate alone, clutching my bag." }
     ] },
 
     { type: "chips", title: "Just in time, too late, too early", groups: [
       { title: "On time and just in time", words: ["right on time", "just in time", "with seconds to spare", "at the very last minute", "only just", "a moment before the doors closed", "just as the bell rang", "with one minute left on the clock"],
         ex: "I slid into my seat with seconds to spare, still panting." },
       { title: "Too late", words: ["a moment too late", "far too late", "by the time I got there, it was gone", "the bus had already left", "the stall had sold out", "the doors slid shut in my face", "I was the last one to arrive", "everyone had already gone home"],
-        ex: "By the time I got to the stall, the last plate of chicken rice had already been sold." },
+        ex: "I raced to the canteen, but the stall had sold out of chicken rice." },
       { title: "Too early", words: ["far too early", "before the shop had even opened", "the hall was still empty", "the canteen aunties were still setting up", "I was the very first one there", "the sun was not even up", "the gates were still locked", "we had a whole hour to spare"],
         ex: "We arrived so early that the canteen aunties were still setting up their stalls." }
     ] },
@@ -184,7 +184,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
         ex: "It was the last day of the school holidays, and I had not touched my homework." },
       { title: "Climax lines with time words", words: ["In that split second, I knew I had to act.", "There was no time to think.", "Every second counted.", "It all happened so fast that I barely remember it.", "Seconds later, it was over.", "I had only a moment to decide.", "The clock was ticking, and the door was still locked.", "Ten seconds left. Five. Then the buzzer went."],
         ex: "There was no time to think. I grabbed my little brother’s hand and pulled him back from the road." },
-      { title: "Endings that close the time", words: ["It was the longest day of my life, but also the best.", "Even now, years later, I still smile when I think about it.", "That night, I fell asleep the moment my head touched the pillow.", "From that day on, I always checked my bag twice.", "As the sun set over the sea, I knew I would never forget this day.", "Looking back, those five minutes taught me more than a whole term of lessons.", "The day had started badly, but it ended with laughter.", "I will remember that afternoon for a very long time."],
+      { title: "Endings that close the time", words: ["It was the longest day of my life, but also the best.", "Even now, years later, I still smile when I think about it.", "That night, I fell asleep the moment my head touched the pillow.", "From that day on, I always checked my bag twice.", "On the drive home, everyone was sleepy and sunburnt, and nobody wanted the day to end.", "Looking back, those five minutes taught me more than a whole term of lessons.", "The day had started badly, but it ended with laughter.", "I will remember that afternoon for a very long time."],
         ex: "That night, I fell asleep the moment my head touched the pillow." }
     ] },
 
@@ -205,7 +205,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [
       ["I was in a hurry.", "I gobbled my breakfast and took the stairs two at a time."],
       ["He walked slowly.", "He dragged his feet, stopping at every shop window."],
       ["There was little time.", "With ten minutes to go, our bridge still had no roof."],
-      ["It was a long time ago.", "When I was little, before my brother was born,"],
+      ["It was a long time ago.", "It happened when I was five, before my little brother was born."],
       ["We waited.", "I peeled the label off my water bottle, bit by bit, as the queue crawled forward."]
     ] },
 

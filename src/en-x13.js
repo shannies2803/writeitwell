@@ -51,7 +51,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
   ]},
 
   { type: "chips", title: "New scene: a kitchen disaster", groups: [
-    { title: "Setting the scene", words: ["I wanted to bake a cake for Mum’s birthday all by myself.","The recipe was taped to the fridge door.","Flour, eggs and sugar were lined up on the counter.","My sister was in charge of reading the instructions.","Grandma was taking her afternoon nap.","The oven was warming up with a soft hum."],
+    { title: "Setting the scene", words: ["My sister and I wanted to bake a cake for Mum’s birthday all by ourselves.","The recipe was taped to the fridge door.","Flour, eggs and sugar were lined up on the counter.","My sister was in charge of reading the instructions.","Grandma was taking her afternoon nap.","The oven was warming up with a soft hum."],
       ex: "The recipe was taped to the fridge door. Flour, eggs and sugar were lined up on the counter." },
     { title: "When it happens", words: ["I mixed up the salt and the sugar.","The bag of flour split, and a white cloud filled the kitchen.","Black smoke curled out from the edges of the oven door.","The smoke alarm began to shriek.","The cake sank in the middle like a punctured ball.","An egg slipped from my hand and cracked on the floor."],
       ex: "Black smoke curled out from the edges of the oven door. Then the smoke alarm began to shriek." },
@@ -175,7 +175,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     { title: "Easy tense lines", words: ["Oh no!","Uh-oh.","I stopped.","I could not move.","It was dark.","The door creaked.","My balloon flew away.","Splat! My ice cream fell.","I looked left. I looked right.","Where was Mum?","My ball rolled onto the road.","I did not make a sound.","Then I heard a noise.","Something was under the bed.","The cup tipped over.","I ran as fast as I could."],
       ex: "My ball rolled onto the road. I stopped. I held my breath.",
       note: "Easy – P1/P2. Short lines make the reader feel the moment." },
-    { title: "Easy happy endings to a tense moment", words: ["It was only my cat!","Mum was right behind me.","I found it under my pillow.","Dad caught it just in time.","Everyone clapped.","I said sorry, and she smiled.","We laughed and laughed.","I was safe.","The noise was only the rain.","My friend held my hand.","Teacher helped me up.","It did not break after all.","Mum gave me a big hug."],
+    { title: "Easy happy endings to a tense moment", words: ["It was only my cat!","Mum was right behind me.","I found it under my pillow.","Dad caught it just in time.","Everyone clapped.","I said sorry, and she smiled.","We laughed and laughed.","I was safe.","The noise was only the rain.","My friend held my hand.","My teacher helped me up.","It did not break after all.","Mum gave me a big hug."],
       ex: "Something was under the bed. I peeked. It was only my cat!" }
   ]},
 
@@ -198,11 +198,11 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
   ]},
 
   { type: "chips", title: "More climax moments: getting caught, hiding and secrets", groups: [
-    { title: "Almost getting caught", words: ["Footsteps came down the corridor.","The door handle began to turn.","Teacher’s eyes moved slowly along the row.","I slid the comic under my textbook.","Mum’s keys jingled outside the door.","The footsteps stopped right outside.","I shoved the broken pieces into the drawer.","Someone switched on the light.","My phone buzzed loudly in the silent classroom.","The cupboard door would not close."],
+    { title: "Almost getting caught", words: ["Footsteps came down the corridor.","The door handle began to turn.","Our teacher’s eyes moved slowly along the row.","I slid the comic under my textbook.","Mum’s keys jingled outside the door.","The footsteps stopped right outside.","I shoved the broken pieces into the drawer.","Someone switched on the light.","My phone buzzed loudly in the silent classroom.","The cupboard door would not close."],
       ex: "Mum’s keys jingled outside the door. I shoved the broken pieces into the drawer and sat down on the sofa." },
     { title: "Hiding", words: ["I crouched behind the curtain.","I pressed my back against the wall.","I tucked my feet in so they would not show.","I squeezed under the bed.","I did not dare to breathe.","A sneeze tickled my nose.","I peered through the gap in the cupboard door.","My knees ached, but I did not move."],
       ex: "I crouched behind the curtain and tucked my feet in. Then a sneeze tickled my nose." },
-    { title: "Secrets about to come out", words: ["“Can I see your bag, please?”","Teacher held up the missing worksheet.","My brother opened his mouth to speak.","The video showed exactly what had happened.","The receipt fell out of my pocket.","My name was written on the back of it.","Everyone turned to look at me.","Mum held up the empty biscuit tin."],
+    { title: "Secrets about to come out", words: ["“Can I see your bag, please?”","Our teacher held up the missing worksheet.","My brother opened his mouth to speak.","The video showed exactly what had happened.","The receipt fell out of my pocket.","My name was written on the back of it.","Everyone turned to look at me.","Mum held up the empty biscuit tin."],
       ex: "Mum held up the empty biscuit tin. Then she looked straight at me." }
   ]},
 
@@ -221,7 +221,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
   ]},
 
   { type: "chips", title: "More ways to show the moment: the senses at their sharpest", groups: [
-    { title: "What I could smell or taste", words: ["the sharp smell of something burning","the taste of salt water","a metallic taste in my mouth","the smell of wet earth before the rain","the sting of chlorine in my nose","the sour smell of fear and sweat","the smell of smoke drifting under the door","dust in my mouth as I fell"],
+    { title: "What I could smell or taste", words: ["the sharp smell of something burning","the taste of salt water","a metallic taste in my mouth","the smell of wet earth before the rain","the sting of chlorine in my nose","the sour smell of my own sweat","the smell of smoke drifting under the door","dust in my mouth as I fell"],
       ex: "Then I smelt it: the sharp smell of something burning." },
     { title: "What I could feel on my skin", words: ["the cold metal of the railing","rain stinging my face","the rough cement scraping my knee","a breeze on the back of my neck","grit under my fingernails","the wet grass soaking through my shorts","the heat of the spotlight on my face","goosebumps prickling along my arms"],
       ex: "I gripped the cold metal of the railing as rain stung my face." },
@@ -234,7 +234,7 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
     { title: "It was not what it seemed", words: ["The ghost was a white raincoat on a hanger.","The scary growl came from my brother’s tummy.","The stranger was holding out my lost wallet.","The footsteps belonged to the night-shift cleaner.","The thief was a crow with a shiny bottle cap.","The knocking was the air-con dripping on the ledge.","The shadow was only the tree outside the window.","The angry voice was the TV next door."],
       ex: "I switched on the light, my heart pounding. The ghost was a white raincoat on a hanger." },
     { title: "Someone surprising helps", words: ["The quiet boy at the back knew exactly what to do.","The grumpy uncle from the provision shop came running.","My little sister remembered where I had left it.","The girl I had argued with passed me her spare pencil.","The bus captain waited for me, after all.","A total stranger held the umbrella over my head.","Our neighbour, whom I had always avoided, called the ambulance."],
-      ex: "The girl I had argued with that morning passed me her spare pencil without a word." },
+      ex: "The girl I had argued with passed me her spare pencil. She did not say a word, but she gave me a small smile." },
     { title: "The plan changes", words: ["There was only one thing left to try.","Plan A had failed. Time for Plan B.","Instead of running away, I turned around.","I stopped pulling and started thinking.","Maybe I did not need to do it alone.","If I could not reach it, maybe something else could.","I remembered the spare key under the flowerpot."],
       ex: "If I could not reach it, maybe something else could. I grabbed the broom from the corner." },
     { title: "Everyday things that save the day", words: ["a broom handle to hook the bag down","a wet towel pressed under the door","a hair clip to wriggle the zip loose","a torch from the emergency drawer","Grandma’s walking stick to reach the kite string","my water bottle to cool the burn","the class whistle hanging by the door","a plastic chair to stand on","a piece of chalk to mark our way","Mum’s phone number written inside my bag"],
@@ -264,16 +264,17 @@ window.CONTENT_PARTS.push({ lang: "en", units: [], extends: [
       ex: "We searched the classroom, the corridor, the toilets and the field until the bell rang. Nothing.",
       note: "P4 and up. A long sentence builds speed. A short one stops the reader in their tracks." },
     { title: "The one-line paragraph", words: ["The gate was locked.","It was not there.","Nobody moved.","I was alone.","The bus was gone.","It was my name.","The bottle was empty."],
-      ex: "Put one of these lines on its own, between two longer paragraphs. The white space around it makes it hit harder." },
+      ex: "I ran all the way back to the playground, my lungs burning, hoping I was not too late. <b>The gate was locked.</b>",
+      note: "P4 and up. Put one of these lines on its own, between two longer paragraphs. The white space around it makes it hit harder." },
     { title: "Saving the key word for last", words: ["Lying at the bottom of the drain, glinting in the sun, was my key.","Standing at the end of the corridor, arms folded, was the principal.","Under the table, curled up and shaking, was our missing kitten.","Across the field, waving both arms, was Dad.","Written across the top of my paper, in bright red ink, was a zero."],
       ex: "Under the table, curled up and shaking, was our missing kitten.",
       note: "P4 and up. Make the reader wait for the most important word by putting it at the very end." }
   ]},
 
   { type: "chips", title: "More climax moments: on the road, the MRT and the bus", groups: [
-    { title: "Trouble on the move", words: ["The MRT doors began to beep.","The train doors slid shut between me and Mum.","My bicycle chain came off on the slope.","The bus braked hard, and everyone lurched forward.","A car reversed out of the lot without stopping.","My scooter wheel hit a crack in the pavement.","The traffic light turned red halfway across.","A cyclist rang his bell, but I stepped the wrong way.","The bus went straight past my stop.","My brakes squealed but the bicycle kept rolling.","The escalator suddenly jerked to a stop.","My little brother let go of my hand at the crossing."],
+    { title: "Trouble on the move", words: ["The MRT doors began to beep.","The train doors slid shut between me and Mum.","My bicycle chain came off on the slope.","The bus braked hard, and everyone lurched forward.","A car reversed out of its parking space without stopping.","My scooter wheel hit a crack in the pavement.","The traffic light turned red halfway across.","A cyclist rang his bell, but I stepped the wrong way.","The bus went straight past my stop.","My brakes squealed, but the bicycle kept rolling.","The escalator suddenly jerked to a stop.","My little brother let go of my hand at the crossing."],
       ex: "The MRT doors began to beep. Mum was still on the platform, waving her arms." },
-    { title: "What I did next", words: ["I pressed the emergency button beside the door.","I got off at the next station and waited on the platform.","I jumped off the bicycle and let it crash.","I grabbed the pole with both hands.","I pulled my brother back onto the kerb.","I walked my bicycle down the rest of the slope.","I told the bus captain I had missed my stop.","I stayed still and let the cyclist pass."],
+    { title: "What I did next", words: ["I stayed calm and told the station staff that I had lost my mum.","I got off at the next station and waited on the platform.","I squeezed both brakes and put my feet down.","I grabbed the pole with both hands.","I pulled my brother back onto the kerb.","I walked my bicycle down the rest of the slope.","I told the bus captain I had missed my stop.","I stayed still and let the cyclist pass."],
       ex: "I got off at the next station and waited on the platform, just as Mum had taught me." }
   ]},
 
